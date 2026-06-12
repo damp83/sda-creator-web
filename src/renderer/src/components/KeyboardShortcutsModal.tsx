@@ -40,6 +40,7 @@ const SHORTCUTS = [
       { keys: ['Alt', '8'], desc: 'Ir a Atención a la Diversidad' },
       { keys: ['Alt', '9'], desc: 'Ir a Interdisciplinariedad' },
       { keys: ['Alt', '0'], desc: 'Ir a ODS' },
+      { keys: ['Alt', 'C'], desc: 'Ir a Cuaderno de Trabajo' },
     ]
   },
   {

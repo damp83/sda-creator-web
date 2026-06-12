@@ -104,7 +104,8 @@ export default function App(): React.ReactElement {
 
   const addToast = useCallback((text: string, type: ToastType = 'info', duration = 4000): void => {
     const id = String(++toastCounterRef.current)
-    setToasts((prev) => [...prev, { id, type, text }])
+    // Máximo 4 toasts visibles: los más antiguos se descartan para no tapar la UI
+    setToasts((prev) => [...prev, { id, type, text }].slice(-4))
     setTimeout(() => removeToast(id), duration)
   }, [removeToast])
 
@@ -343,6 +344,10 @@ export default function App(): React.ReactElement {
         } else if (e.key === 'n') {
           e.preventDefault()
           window.dispatchEvent(new CustomEvent('sda-notes-toggle'))
+        } else if (e.key === 'c') {
+          // Alt+C — Cuaderno de Trabajo (sección 11)
+          e.preventDefault()
+          setActiveSection(10)
         }
       }
     }
@@ -350,14 +355,30 @@ export default function App(): React.ReactElement {
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [handleGuardar, handleAbrir, handleAbrirWizard, handleExportarPdf, handleCopiarPortapapeles, undo, redo, openModal, setActiveSection])
 
-  // Toast cuando una sección se completa
+  // Toast cuando una sección se completa — agregando ráfagas (p. ej. al cargar
+  // una plantilla se completan 8 secciones a la vez: un único toast resumen)
+  const completeBufferRef = useRef<string[]>([])
+  const completeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   useEffect(() => {
     function onComplete(e: Event): void {
       const label = (e as CustomEvent<{ sectionLabel: string }>).detail.sectionLabel
-      addToast(`Sección completada: ${label}`, 'success', 2500)
+      completeBufferRef.current.push(label)
+      if (completeTimerRef.current) clearTimeout(completeTimerRef.current)
+      completeTimerRef.current = setTimeout(() => {
+        const labels = completeBufferRef.current
+        completeBufferRef.current = []
+        if (labels.length === 1) {
+          addToast(`Sección completada: ${labels[0]}`, 'success', 2500)
+        } else if (labels.length > 1) {
+          addToast(`${labels.length} secciones completadas ✓`, 'success', 3000)
+        }
+      }, 500)
     }
     window.addEventListener('sda-section-complete', onComplete)
-    return () => window.removeEventListener('sda-section-complete', onComplete)
+    return () => {
+      window.removeEventListener('sda-section-complete', onComplete)
+      if (completeTimerRef.current) clearTimeout(completeTimerRef.current)
+    }
   }, [addToast])
 
   // Flash del campo encontrado en la búsqueda global
@@ -528,7 +549,7 @@ export default function App(): React.ReactElement {
             <button
               data-tour="asistente-ia"
               onClick={() => toggleModal('aiPanel')}
-              className={`fixed bottom-6 z-30 flex items-center gap-2 rounded-2xl px-4 py-3 text-sm font-semibold text-white shadow-xl transition-all duration-200 ${m.aiPanel ? 'right-[436px] bg-violet-700' : 'right-6 bg-violet-600 hover:bg-violet-700 hover:scale-105'}`}
+              className={`fixed bottom-6 z-30 flex items-center gap-2 rounded-2xl px-4 py-3 text-sm font-semibold text-white shadow-xl transition-all duration-200 ${m.aiPanel ? 'right-[436px] bg-ai-700' : 'right-6 bg-ai-600 hover:bg-ai-700 hover:scale-105'}`}
               title="Asistente IA para esta sección"
             >
               <BrainCircuit size={18} />

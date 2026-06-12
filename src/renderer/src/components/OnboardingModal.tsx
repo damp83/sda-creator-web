@@ -52,7 +52,7 @@ const FEATURES = [
 
 export function OnboardingModal({ isOpen, hasExisting, onClose, onNueva, onDesdePlantilla, onAbrir }: Props): React.ReactElement | null {
   return (
-    <ModalShell isOpen={isOpen} onClose={hasExisting ? onClose : () => {}} title="Bienvenido a SdA Creator" className="relative w-full max-w-xl overflow-hidden rounded-3xl bg-white shadow-2xl dark:bg-slate-900">
+    <ModalShell isOpen={isOpen} onClose={onClose} title="Bienvenido a SdA Creator" className="relative w-full max-w-xl overflow-hidden rounded-3xl bg-white shadow-2xl dark:bg-slate-900">
       <div>
 
         {/* Botón cerrar — solo si hay proyecto en curso */}

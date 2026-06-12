@@ -1,3 +1,5 @@
+import colors from 'tailwindcss/colors'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/renderer/index.html', './src/renderer/src/**/*.{js,ts,jsx,tsx}'],
@@ -5,6 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Token semántico: TODO lo relacionado con IA usa este color (violeta),
+        // independiente del tema de la interfaz elegido por el usuario.
+        // Decisión de diseño: el violeta identifica las funciones de IA.
+        ai: colors.violet,
         primary: {
           50:  'rgb(var(--color-primary-50)  / <alpha-value>)',
           100: 'rgb(var(--color-primary-100) / <alpha-value>)',

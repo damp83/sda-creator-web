@@ -66,6 +66,7 @@ export const Header = React.memo(function Header({
   // Selectores granulares — evitan re-renders por cambios en sda no relacionados
   const isDirty   = useSdAStore(s => s.isDirty)
   const filePath  = useSdAStore(s => s.filePath)
+  const titulo    = useSdAStore(s => s.sda.titulo)
   const lastSaved = useSdAStore(s => s.lastSaved)
   const undo      = useSdAStore(s => s.undo)
   const redo      = useSdAStore(s => s.redo)
@@ -119,6 +120,13 @@ export const Header = React.memo(function Header({
               title={filePath}
             >
               {filePath.split(/[/\\]/).pop()?.replace('.json', '')}
+            </span>
+          ) : titulo ? (
+            <span
+              className="max-w-[18rem] truncate text-xs font-bold tracking-tight text-slate-800 dark:text-slate-200"
+              title={`${titulo} (sin guardar en archivo)`}
+            >
+              {titulo}
             </span>
           ) : (
             <span className="text-xs font-semibold tracking-tight text-slate-400">Sin título</span>
