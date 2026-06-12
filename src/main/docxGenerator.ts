@@ -75,7 +75,7 @@ function htmlToRuns(html: string): TextRun[] {
     else if (under !== undefined) { const t = stripTags(under); if (t.trim()) runs.push(new TextRun({ text: t, underline: {} })) }
     else if (plain) { const t = decodeEntities(plain); if (t.trim()) runs.push(new TextRun(t)) }
   }
-  return runs.length ? runs : [new TextRun('')]
+  return runs
 }
 
 function htmlToParas(html: string): Paragraph[] {
@@ -89,11 +89,9 @@ function htmlToParas(html: string): Paragraph[] {
     if (m[1] !== undefined) {
       const parts = m[1].split(/<br\s*\/?>/gi)
       for (const part of parts) {
+        // htmlToRuns ya descarta los runs vacíos: si devuelve alguno, hay contenido
         const runs = htmlToRuns(part)
-        if (runs.some((r) => {
-          const t = (r as unknown as { options?: { text?: string } }).options?.text
-          return t && t.trim()
-        })) {
+        if (runs.length > 0) {
           paras.push(new Paragraph({ children: runs, spacing: { after: 120 } }))
         }
       }
@@ -134,7 +132,7 @@ function h2(text: string, pageBreak = false): Paragraph {
     children: [new TextRun({ text: text.toUpperCase(), bold: true, color: 'FFFFFF', size: 24 })],
     heading: HeadingLevel.HEADING_2,
     spacing: { before: 480, after: 120 },
-    shading: { fill: COLORS.heading, type: ShadingType.SOLID },
+    shading: { fill: COLORS.heading, type: ShadingType.CLEAR },
     pageBreakBefore: pageBreak
   })
 }
@@ -182,7 +180,7 @@ function infoRow(cols: { text: string; width: number; header?: boolean }[]): Tab
             children: [new TextRun({ text: col.text, bold: !!col.header, color: col.header ? COLORS.heading : '1E293B', size: 18 })]
           })],
           width: { size: col.width, type: WidthType.PERCENTAGE },
-          shading: col.header ? { fill: 'DBEAFE', type: ShadingType.SOLID } : { fill: 'F8FAFC', type: ShadingType.SOLID },
+          shading: col.header ? { fill: 'DBEAFE', type: ShadingType.CLEAR } : { fill: 'F8FAFC', type: ShadingType.CLEAR },
           borders: {
             top: { style: BorderStyle.SINGLE, size: 1, color: 'CBD5E1' },
             bottom: { style: BorderStyle.SINGLE, size: 1, color: 'CBD5E1' },
@@ -216,7 +214,7 @@ function rubricaTable(filas: RubricaFilaData[]): Table {
         children: COLS.map((c) => new TableCell({
           children: [new Paragraph({ children: [new TextRun({ text: c.header, bold: true, size: 18 })] })],
           width: { size: c.width, type: WidthType.PERCENTAGE },
-          shading: { fill: '1E3A5F', type: ShadingType.SOLID },
+          shading: { fill: '1E3A5F', type: ShadingType.CLEAR },
           borders,
         }))
       }),
@@ -224,7 +222,7 @@ function rubricaTable(filas: RubricaFilaData[]): Table {
         children: COLS.map((c) => new TableCell({
           children: [new Paragraph({ children: [new TextRun({ text: fila[c.key], size: 17 })] })],
           width: { size: c.width, type: WidthType.PERCENTAGE },
-          shading: rowIdx % 2 === 1 ? { fill: 'F1F5F9', type: ShadingType.SOLID } : undefined,
+          shading: rowIdx % 2 === 1 ? { fill: 'F1F5F9', type: ShadingType.CLEAR } : undefined,
           borders,
         }))
       }))
@@ -277,7 +275,7 @@ export async function generarDocx(sda: SdADocxData): Promise<Buffer> {
                   spacing: { after: 0 }
                 }),
               ],
-              shading: { fill: COLORS.heading, type: ShadingType.SOLID },
+              shading: { fill: COLORS.heading, type: ShadingType.CLEAR },
               borders: allNoBorders,
               margins: { top: 480, bottom: 480, left: 560, right: 560 }
             })

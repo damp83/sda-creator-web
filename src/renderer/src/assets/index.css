@@ -169,7 +169,9 @@
   #app-shell  { display: none !important; }
   #print-view { display: block; }
   * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
-  @page { size: A4 portrait; margin: 26mm 16mm 24mm 20mm; }
+  /* Sin regla @page: el tamaño, la orientación y los márgenes los fija
+     printToPDF en cada exportación (docente: A4 vertical con márgenes;
+     cuaderno: A4 apaisado a sangre). Un @page aquí los anularía. */
 }
 
 /* Modo exportar cuaderno (clase en body) */
