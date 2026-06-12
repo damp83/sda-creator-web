@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="doc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0eaff"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1e3a8a" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Fondo redondeado -->
+  <rect width="256" height="256" rx="52" fill="url(#bg)"/>
+
+  <!-- Brillo sutil en la esquina superior -->
+  <ellipse cx="80" cy="60" rx="90" ry="60" fill="white" opacity="0.06"/>
+
+  <!-- Documento principal con sombra -->
+  <g filter="url(#shadow)">
+    <!-- Cuerpo del documento -->
+    <path d="M66 54 L178 54 L202 78 L202 210 Q202 218 194 218 L66 218 Q58 218 58 210 L58 62 Q58 54 66 54 Z"
+          fill="url(#doc)"/>
+    <!-- Pliegue esquina superior derecha -->
+    <path d="M178 54 L202 78 L178 78 Z" fill="#bfdbfe"/>
+    <path d="M178 54 L202 78 L178 78 Z" fill="#93c5fd" opacity="0.5"/>
+  </g>
+
+  <!-- Líneas de texto en el documento -->
+  <!-- Título (línea gruesa) -->
+  <rect x="78" y="100" width="100" height="10" rx="5" fill="#1d4ed8" opacity="0.22"/>
+  <!-- Líneas de contenido -->
+  <rect x="78" y="120" width="82" height="7" rx="3.5" fill="#1d4ed8" opacity="0.14"/>
+  <rect x="78" y="134" width="94" height="7" rx="3.5" fill="#1d4ed8" opacity="0.14"/>
+  <rect x="78" y="148" width="70" height="7" rx="3.5" fill="#1d4ed8" opacity="0.14"/>
+  <!-- Separador -->
+  <rect x="78" y="165" width="104" height="1.5" rx="1" fill="#1d4ed8" opacity="0.1"/>
+  <!-- Más líneas -->
+  <rect x="78" y="174" width="86" height="7" rx="3.5" fill="#1d4ed8" opacity="0.12"/>
+  <rect x="78" y="188" width="62" height="7" rx="3.5" fill="#1d4ed8" opacity="0.12"/>
+
+  <!-- Estrella / Chispa de aprendizaje (esquina superior izquierda del doc) -->
+  <!-- Estrella de 8 puntas (dos cuadrados rotados) -->
+  <g transform="translate(90, 68)">
+    <!-- Halo suave -->
+    <circle cx="0" cy="0" r="20" fill="#fbbf24" opacity="0.2"/>
+    <!-- Estrella exterior -->
+    <polygon points="
+      0,-16  3.8,-5.2  14.7,-9  7.2,0  14.7,9  3.8,5.2
+      0,16  -3.8,5.2  -14.7,9  -7.2,0  -14.7,-9  -3.8,-5.2"
+      fill="#f59e0b"/>
+    <!-- Círculo central brillante -->
+    <circle cx="0" cy="0" r="6" fill="#fde68a"/>
+    <circle cx="-1.5" cy="-1.5" r="2" fill="white" opacity="0.7"/>
+  </g>
+
+  <!-- Pequeño punto de acento en esquina inferior derecha del fondo -->
+  <circle cx="210" cy="210" r="18" fill="#60a5fa" opacity="0.15"/>
+</svg>

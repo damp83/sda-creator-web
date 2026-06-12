@@ -1,0 +1,876 @@
+{
+  "comunidad": "Región de Murcia",
+  "ambito": "COMUNICACIÓN Y REPRESENTACIÓN",
+  "areas": [
+    {
+      "nombre": "Área de Lengua Castellana y Literatura (D. 209/2022) / Área 3 Infantil",
+      "competencias_especificas": [
+        {
+          "ce": "CE 1: Reconocer la diversidad lingüística del mundo a partir de la identificación de las lenguas del alumnado y de la realidad plurilingüe y multicultural de España, para favorecer la reflexión interlingüística, para identificar y rechazar estereotipos y prejuicios lingüísticos, y para valorar dicha diversidad como fuente de riqueza cultural.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3. 5.1 Relacionarse con naturalidad en la realidad lingüística y cultural del aula.",
+              "A3. 1.5 Participar en situaciones de uso de diferentes lenguas, manifestando interés y curiosidad hacia la diversidad de perfiles lingüísticos."
+            ],
+            "infantil_ciclo_2": [
+              "A3. 5.1 Relacionarse de forma respetuosa en la pluralidad lingüística y cultural de su entorno, manifestando interés por otras lenguas, etnias y culturas.",
+              "A3. 1.3 Participar en situaciones de uso de diferentes lenguas, mostrando interés, curiosidad y respeto por la diversidad de perfiles lingüísticos."
+            ],
+            "primaria_ciclo_1": [
+              "1.1. Mostrar interés y respeto por las distintas lenguas y variedades dialectales de su entorno, valorando la igualdad en las diferencias.",
+              "1.2. Reconocer, de manera acompañada y en contextos próximos, algunos prejuicios y estereotipos lingüísticos y culturales muy frecuentes."
+            ],
+            "primaria_ciclo_2": [
+              "1.1. Mostrar interés y respeto a las distintas lenguas y variedades dialectales de su entorno, identificando algunas expresiones de uso cotidiano.",
+              "1.2. Identificar, con cierta autonomía y en contextos próximos, prejuicios y estereotipos lingüísticos frecuentes, aportando alternativas y reconociendo la diversidad lingüística de su entorno como una fuente de riqueza cultural."
+            ],
+            "primaria_ciclo_3": [
+              "1.1. Mostrar interés y respeto a las distintas lenguas y variedades dialectales, identificando las características fundamentales de las de su entorno geográfico, así como algunos rasgos de los dialectos y lenguas familiares del alumnado.",
+              "1.2. Detectar, con autonomía creciente y en contextos próximos, prejuicios y estereotipos lingüísticos frecuentes, aportando alternativas y valorando la diversidad lingüística del mundo como una fuente de riqueza cultural."
+            ]
+          }
+        },
+        {
+          "ce": "CE 2: Comprender e interpretar textos orales y multimodales identificando el sentido general y la información más relevante, valorando con ayuda aspectos formales y de contenido básicos, para construir conocimiento y responder a diferentes necesidades comunicativas.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3. 2.1 Interpretar los estímulos y mensajes del entorno, reaccionando de manera adecuada."
+            ],
+            "infantil_ciclo_2": [
+              "A3. 2.1 Interpretar de forma eficaz los mensajes e intenciones comunicativas de los demás."
+            ],
+            "primaria_ciclo_1": [
+              "2.1. Comprender el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales y los mensajes explícitos y los mensajes implícitos más sencillos, e iniciando, de manera acompañada, la valoración del contenido y de los elementos no verbales más elementales"
+            ],
+            "primaria_ciclo_2": [
+              "2.1. Comprender el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales, los mensajes explícitos y los mensajes implícitos más sencillos, y progresando, de manera acompañada, en la valoración del contenido y de los elementos no verbales elementales."
+            ],
+            "primaria_ciclo_3": [
+              "2.1. Comprender el sentido de textos orales y multimodales sencillos, reconociendo las ideas principales y los mensajes explícitos e implícitos, valorando su contenido y los elementos no verbales elementales y, de manera acompañada, algunos elementos formales elementales."
+            ]
+          }
+        },
+        {
+          "ce": "CE 3: Producir textos orales y multimodales con coherencia, claridad y registro adecuados para expresar ideas, sentimientos y conceptos; construir conocimiento; establecer vínculos personales; y participar con autonomía y una actitud cooperativa y empática en interacciones orales variadas.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3. 1.3 Manifestar necesidades, sentimientos y vivencias, utilizando estrategias comunicativas y aprovechando las posibilidades que ofrecen los diferentes lenguajes con curiosidad y disfrute.",
+              "A3. 3.3 Producir mensajes, ampliando y enriqueciendo su repertorio comunicativo con seguridad y confianza.",
+              "A3. 1.1 Participar con interés en interacciones cotidianas, utilizando diferentes sistemas comunicativos.",
+              "A3. 3.1 Utilizar el lenguaje oral para expresar y compartir necesidades, sentimientos, deseos, emociones, vivencias, regulando las acciones e interactuando en diferentes situaciones y contextos."
+            ],
+            "infantil_ciclo_2": [
+              "A3. 3.1 Hacer un uso funcional del lenguaje oral, aumentando su repertorio lingüístico y construyendo progresivamente un discurso más eficaz, organizado y coherente en contextos formales e informales.",
+              "A3. 3.3 Evocar y expresar espontáneamente ideas a través del relato oral.",
+              "A3. 3.2 Utilizar el lenguaje oral como instrumento regulador de la acción en las interacciones con los demás con seguridad y confianza respetando los hábitos sociales básicos como el turno de palabra y actitud de escucha."
+            ],
+            "primaria_ciclo_1": [
+              "3.1. Producir textos orales y multimodales coherentes, con planificación acompañada y utilizando recursos no verbales elementales.",
+              "3.2. Participar en interacciones orales espontáneas, incorporando estrategias elementales de escucha activa y de cortesía lingüística."
+            ],
+            "primaria_ciclo_2": [
+              "3.1. Producir textos orales y multimodales coherentes, con planificación acompañada, ajustando el discurso a la situación comunicativa y utilizando recursos no verbales básicos.",
+              "3.2. Participar en interacciones orales espontáneas o regladas, incorporando estrategias básicas de escucha activa y cortesía lingüística."
+            ],
+            "primaria_ciclo_3": [
+              "3.1. Producir textos orales y multimodales, de manera autónoma, coherente y fluida, en contextos formales sencillos y utilizando correctamente recursos verbales y no verbales básicos.",
+              "3.2. Participar en interacciones orales espontáneas o regladas, incorporando estrategias sencillas de escucha activa, de cortesía lingüística y de cooperación conversacional."
+            ]
+          }
+        },
+        {
+          "ce": "CE 4: Comprender e interpretar textos escritos y multimodales, reconociendo el sentido global, las ideas principales y la información explícita e implícita, y realizando con ayuda reflexiones elementales sobre aspectos formales y de contenido, para adquirir y construir conocimiento y para responder a necesidades e intereses comunicativos diversos.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3. 4,2,. Recurrir a escrituras indeterminadas y no convencionales, incorporñándolas a sus propias producciones con intenicón comunicativa."
+            ],
+            "infantil_ciclo_2": [
+              "4.1. Comprender el sentido global y la información relevante de textos cercanos, escritos y multimodales, a partir de estrategias básicas de comprensión antes, durante y después de la lectura.",
+              "A3. 4.1 Mostrar interés por comunicarse a través de códigos escritos, convencionales o no, valorando su función comunicativa",
+              "A3. 4.2 Identificar, de manera acompañada, alguna de las características textuales y paratextuales mediante la indagación en textos de uso social libres de prejuicios y estereotipos sexistas."
+            ],
+            "primaria_ciclo_1": [
+              "4.1. Comprender el sentido global y la información relevante de textos sencillos, escritos y multimodales, realizando inferencias a partir de estrategias básicas de comprensión antes, durante y después de la lectura.",
+              "4.2. Analizar, de manera acompañada, el contenido y aspectos formales y no formales elementales de textos escritos y multimodales sencillos, valorando su contenido y estructura."
+            ],
+            "primaria_ciclo_2": [
+              "4.1. Comprender el sentido global y la información relevante de textos escritos y multimodales, realizando inferencias y a partir de estrategias básicas de comprensión antes, durante y después de la lectura.",
+              "4.2. Analizar, de manera acompañada, el contenido y aspectos formales y no formales elementales de textos escritos y multimodales, valorando su contenido y estructura e iniciándose en la evaluación de su fiabilidad."
+            ],
+            "primaria_ciclo_3": [
+              "4.1. Comprender el sentido global y la información relevante de textos escritos y multimodales, realizando inferencias y a partir de estrategias básicas de comprensión antes, durante y después de la lectura.",
+              "4.2. Analizar, de manera acompañada, el contenido y aspectos formales y no formales elementales de textos escritos y multimodales, valorando su contenido y estructura y evaluando su calidad, fiabilidad e idoneidad en función del propósito de lectura."
+            ]
+          }
+        },
+        {
+          "ce": "CE 5: Producir textos escritos y multimodales, con corrección gramatical y ortográfica básicas, secuenciando correctamente los contenidos y aplicando estrategias elementales de planificación, textualización, revisión y edición para construir conocimiento y para dar respuesta a demandas comunicativas concretas.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3. 4.1 Participar en actividades lúdicas de aproximación al lenguaje escrito, mostrando una actitud activa."
+            ],
+            "infantil_ciclo_2": [
+              "A3. 4.1 Mostrar interés por comunicarse a través de códigos escritos, convencionales o no, valorando su función comunicativa."
+            ],
+            "primaria_ciclo_1": [
+              "5.1. Producir textos escritos y multimodales sencillos y coherentes en distintos soportes, desde las diferentes etapas del proceso evolutivo de la escritura, ajustándose a modelos dados y movilizando, de manera acompañada, estrategias elementales, individuales o grupales, de planificación, textualización y revisión."
+            ],
+            "primaria_ciclo_2": [
+              "5.1. Producir textos escritos y multimodales sencillos, con coherencia y adecuación, en distintos soportes, iniciándose en el uso de las normas gramaticales y ortográficas más sencillas al servicio de la cohesión y progresando, de manera acompañada, en la movilización de estrategias sencillas, individuales o grupales, de planificación, textualización y revisión."
+            ],
+            "primaria_ciclo_3": [
+              "5.1. Producir textos escritos y multimodales de relativa complejidad, con coherencia y adecuación, en distintos soportes, progresando en el uso de las normas gramaticales y ortográficas básicas al servicio de la cohesión textual y movilizando estrategias sencillas, individuales o grupales, de planificación, textualización, revisión y edición."
+            ]
+          }
+        },
+        {
+          "ce": "CE 6: Buscar, seleccionar y contrastar información procedente de dos o más fuentes, de forma planificada y con el debido acompañamiento, evaluando su fiabilidad y reconociendo algunos riesgos de manipulación y desinformación, para transformarla en conocimiento y comunicarla de manera creativa, adoptando un punto de vista personal y respetuoso con la propiedad intelectual.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3. 4.3 Recurrir a la biblioteca como fuente de información y disfrute, respetando sus normas de uso.",
+              "A3. 3.2 Explorar las posibilidades expresivas de los diferentes lenguajes, utilizando los medios materiales propios de los mismos."
+            ],
+            "infantil_ciclo_2": [
+              "A3. 3.7 Expresarse de manera creativa, utilizando diversas herramientas o aplicaciones digitales intuitivas y visuales."
+            ],
+            "primaria_ciclo_1": [
+              "6.1. Localizar, seleccionar y contrastar información de distintas fuentes, incluidas las digitales, citándolas y recreándolas mediante la adaptación creativa de modelos dados.",
+              "6.2. Compartir los resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal, realizado de manera acompañada",
+              "6.3. Adoptar hábitos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación con la búsqueda y la comunicación de la información."
+            ],
+            "primaria_ciclo_2": [
+              "6.1. Localizar, seleccionar y contrastar información de distintas fuentes, incluidas las digitales, citándolas y recreándolas mediante la adaptación creativa de modelos dados.",
+              "6.2. Compartir los resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal o ecosocial, realizado de manera acompañada.",
+              "6.3. Adoptar hábitos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación con la búsqueda y la comunicación de la información."
+            ],
+            "primaria_ciclo_3": [
+              "6.1. Localizar, seleccionar y contrastar información de distintas fuentes, incluidas las digitales, citándolas y recreándolas mediante la adaptación creativa de modelos dados.",
+              "6.2. Compartir los resultados de un proceso de investigación sencillo, individual o grupal, sobre algún tema de interés personal o ecosocial, realizado de manera acompañada.",
+              "6.3. Adoptar hábitos de uso crítico, seguro, sostenible y saludable de las tecnologías digitales en relación con la búsqueda y la comunicación de la información."
+            ]
+          }
+        },
+        {
+          "ce": "CE 7: Leer de manera autónoma obras diversas seleccionadas atendiendo a sus gustos e intereses, compartiendo las experiencias de lectura, para iniciar la construcción de la identidad lectora, fomentar el gusto por la lectura como fuente de placer y disfrutar de su dimensión social.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_2": [
+              "7.3. Leer con progresiva autonomía textos de distintos autores y autoras acordes con sus gustos e intereses, seleccionados de manera acompañada, desde las diferentes etapas del proceso evolutivo de la lectura.",
+              "7.4. Compartir oralmente la experiencia y disfrute de lectura participando en comunidades lectoras de ámbito escolar."
+            ],
+            "primaria_ciclo_1": [
+              "7.1. Leer con progresiva autonomía o de forma acompañada textos de diversos autores y autoras, ajustados a sus gustos e intereses y seleccionados con creciente autonomía, avanzando en la construcción de su identidad lectora.",
+              "7.2. Compartir la experiencia de lectura, en soportes diversos, participando en comunidades lectoras en el ámbito escolar."
+            ],
+            "primaria_ciclo_2": [
+              "7.1. Leer de manera autónoma textos de diversos autores y autoras ajustados a sus gustos e intereses, progresando en la construcción de su identidad lectora.",
+              "7.2. Compartir la experiencia de lectura, en soportes diversos, participando en comunidades lectoras en el ámbito escolar o social."
+            ],
+            "primaria_ciclo_3": [
+              "7.1. Leer de manera autónoma textos de diversos autores y autoras ajustados a sus gustos e intereses, progresando en la construcción de su identidad lectora.",
+              "7.2. Compartir la experiencia de lectura, en soportes diversos, participando en comunidades lectoras en el ámbito escolar o social."
+            ]
+          }
+        },
+        {
+          "ce": "CE 8: Leer, interpretar y analizar, de manera acompañada, obras o fragmentos literarios adecuados a su desarrollo, estableciendo relaciones entre ellos e identificando el género literario y sus convenciones fundamentales, para iniciarse en el reconocimiento de la literatura como manifestación artística y fuente de placer, conocimiento e inspiración para crear textos de intención literaria.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3. 5.2 Manifestar interés y disfrute hacia actividades individuales o colectivas relacionadas con la literatura infantil, las obras musicales, los audiovisuales, las danzas o las dramatizaciones, avanzando en una actitud participativa.",
+              "A3. 2.2 Expresar sensaciones, sentimientos y emociones a partir de distintas representaciones y manifestaciones artísticas y culturales cercanas al niño, propias de la Región de Murcia."
+            ],
+            "infantil_ciclo_2": [
+              "A3. 5.3 Participar en actividades de aproximación a la literatura infantil, tanto de carácter individual, como en contextos dialógicos y participativos, descubriendo, explorando y apreciando la belleza del lenguaje literario.",
+              "A3. 2.2 Interpretar los mensajes transmitidos mediante representaciones o manifestaciones artísticas, también en formato digital, reconociendo la intencionalidad del emisor y mostrando una actitud curiosa y responsable."
+            ],
+            "primaria_ciclo_1": [
+              "8.1. Escuchar y leer textos orales y escritos de la literatura infantil, que recojan diversidad de autores y autoras, estableciendo de manera acompañada relaciones elementales entre ellos y con otras manifestaciones artísticas o culturales.",
+              "8.2. Producir, de manera acompañada, textos sencillos individuales o colectivos con intención literaria, adaptados a las diferentes etapas del proceso evolutivo de la escritura, ajustándose a modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos."
+            ],
+            "primaria_ciclo_2": [
+              "8.1. Escuchar y leer textos variados de la literatura infantil universal, que recojan diversidad de autores y autoras, relacionándolos en función de temas y aspectos elementales del género literario, e interpretándolos y relacionándolos con otras manifestaciones artísticas o culturales de manera acompañada.",
+              "8.2. Producir, de manera acompañada, textos sencillos individuales o colectivos con intención literaria, recreando de manera personal los modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos."
+            ],
+            "primaria_ciclo_3": [
+              "8.1. Escuchar y leer de manera acompañada textos literarios adecuados a su edad, que recojan diversidad de autores y autoras, relacionándolos en función de los temas y de aspectos elementales de cada género literario, e interpretándolos, valorándolos y relacionándolos con otras manifestaciones artísticas o culturales de manera progresivamente autónoma.",
+              "8.2. Producir, de manera progresivamente autónoma, textos sencillos individuales o colectivos con intención literaria, reelaborando con creatividad los modelos dados, en distintos soportes y complementándolos con otros lenguajes artísticos."
+            ]
+          }
+        },
+        {
+          "ce": "CE 9: Reflexionar de forma guiada sobre el lenguaje a partir de procesos de producción y comprensión de textos en contextos significativos, utilizando la terminología elemental adecuada, para iniciarse en el desarrollo de la conciencia lingüística y para mejorar las destrezas de producción y comprensión oral y escrita.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3. 1.2 Participar de forma espontánea en situaciones comunicativas, adecuando la postura, los gestos y los movimientos a sus intenciones."
+            ],
+            "infantil_ciclo_2": [
+              "A3. 1.1 Participar de manera activa, espontánea y respetuosa con las diferencias individuales en situaciones comunicativas de progresiva complejidad, en función de su desarrollo individual."
+            ],
+            "primaria_ciclo_1": [
+              "9.1. Formular conclusiones elementales sobre el funcionamiento de la lengua, prestando especial atención a la concordancia y a las relaciones de significado entre las palabras, a partir de la observación, comparación y transformación de palabras y enunciados, en un proceso acompañado de producción o comprensión de textos en contextos significativos.",
+              "9.2. Revisar y mejorar los textos propios y subsanar algunos problemas de comprensión lectora, de manera acompañada, a partir de la reflexión metalingüística e interlingüística y usando la terminología lingüística básica adecuada."
+            ],
+            "primaria_ciclo_2": [
+              "9.1. Formular conclusiones elementales sobre el funcionamiento de la lengua, prestando especial atención a la relación entre sustantivos, adjetivos y verbo, a partir de la observación, comparación y transformación de palabras, enunciados y textos, en un proceso acompañado de producción o comprensión de textos en contextos significativos.",
+              "9.2. Revisar y mejorar los textos propios y ajenos y subsanar algunos problemas de comprensión lectora, de manera acompañada, a partir de la reflexión metalingüística e intralingüística y usando la terminología básica adecuada."
+            ],
+            "primaria_ciclo_3": [
+              "9.1. Establecer generalizaciones sobre aspectos básicos del funcionamiento de la lengua materna acompañada, formulando hipótesis y buscando contraejemplos, a partir de la observación, comparación y transformación de palabras, enunciados y textos, en un proceso acompañado de producción o comprensión de textos en contextos significativos.",
+              "9.2. Revisar y mejorar los textos propios y ajenos y subsanar algunos problemas de compresión lectora, de manera progresivamente autónoma a partir de la reflexión metalingüística e intralingüística y usando la terminología básica adecuada."
+            ]
+          }
+        },
+        {
+          "ce": "CE 10: Poner las propias prácticas comunicativas al servicio de la convivencia democrática utilizando un lenguaje no discriminatorio y detectando y rechazando los abusos de poder a través de la palabra, para favorecer un uso no solo eficaz sino también ético del lenguaje.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3.5.2 Participar en interacciones comunicativas en lengua extranjera relacionadas con rutinas y situaciones cotidianas.",
+              "A3. 1.4 Tomar la iniciativa en la interacción social, disfrutando de las situaciones comunicativas con una actitud respetuosa."
+            ],
+            "infantil_ciclo_2": [
+              "A3. 1.2 Ajustar su repertorio comunicativo a las propuestas, a los interlocutores y al contexto, indagando en las posibilidades expresivas de los diferentes lenguajes."
+            ],
+            "primaria_ciclo_1": [
+              "10.1. Rechazar los usos lingüísticos discriminatorios identificados a partir de la reflexión grupal acompañada sobre los aspectos elementales, verbales y no verbales, de la comunicación, teniendo en cuenta una perspectiva de género.",
+              "10.2. Movilizar, con la planificación y el acompañamiento necesarios, estrategias elementales para la escucha activa, la comunicación asertiva y el consenso, iniciándose en la gestión dialogada de conflictos."
+            ],
+            "primaria_ciclo_2": [
+              "10.1. Rechazar los usos lingüísticos discriminatorios e identificar los abusos de poder a través de la palabra a partir de la reflexión grupal acompañada sobre los aspectos básicos, verbales y no verbales, de la comunicación, teniendo en cuenta una perspectiva de género.",
+              "10.2. Movilizar, con la planificación y el acompañamiento necesarios, estrategias básicas para la escucha activa, la comunicación asertiva y el consenso, progresando en la gestión dialogada de conflictos."
+            ],
+            "primaria_ciclo_3": [
+              "10.1. Rechazar los usos lingüísticos discriminatorios y los abusos de poder a través de la palabra identificados mediante la reflexión grupal acompañada sobre distintos aspectos, verbales y no verbales, de la comunicación, teniendo en cuenta una perspectiva de género.",
+              "10.2. Movilizar, con la planificación y el acompañamiento necesarios, estrategias básicas para la escucha activa, la comunicación asertiva y la deliberación argumentada, progresando en la gestión dialogada de conflictos."
+            ]
+          }
+        }
+      ],
+      "saberes_basicos": {
+        "A. LAS LENGUAS Y SUS HABLANTES": {
+          "infantil_ciclo_1": [
+            "- Repertorio lingüístico individual.",
+            "- Realidad lingüística del aula y el entorno. Palabras o expresiones que responden a sus necesidades o intereses. Folclore murciano.",
+            "- Iniciación a la lengua extranjera: Conocimiento y reproducción de expresiones básicas en lengua extranjera en relación con sus actividades habituales de la vida diaria (juego, actividad, canciones, hábitos, rutinas...)."
+          ],
+          "infantil_ciclo_2": [
+            "- Repertorio lingüístico individual.",
+            "- La realidad lingüística del entorno. Fórmulas o expresiones que responden a sus necesidades o intereses.",
+            "- Acercamiento al dialecto de la Región de Murcia a través de palabras, rimas, canciones, literatura y textos del presente y del pasado.",
+            "- Aproximación a la lengua extranjera. Elementos para una comunicación funcional básica."
+          ],
+          "primaria_ciclo_1": [
+            "- Biografía lingüística personal y mapa lingüístico del aula.",
+            "- La diversidad etno-cultural y lingüística como riqueza y herramienta de reflexión interlingüística.",
+            "- Identificación, con acompañamiento, de prejuicios y estereotipos lingüísticos.",
+            "- Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+          ],
+          "primaria_ciclo_2": [
+            "- Biografía lingüística personal y mapa lingüístico local.",
+            "- La diversidad etno-cultural y lingüística como riqueza y herramienta de reflexión interlingüística.",
+            "- Identificación de prejuicios y estereotipos lingüísticos.",
+            "- Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+          ],
+          "primaria_ciclo_3": [
+            "- Biografía lingüística personal y mapa lingüístico del entorno geográfico.",
+            "- La diversidad etnocultural y lingüística como riqueza y herramienta de reflexión interlingüística. Aproximación a las lenguas de signos.",
+            "- Estrategias de identificación de prejuicios y estereotipos lingüísticos.",
+            "- Uso de un lenguaje no discriminatorio y respetuoso con las diferencias."
+          ]
+        },
+        "B. COMUNICACIÓN": {
+          "infantil_ciclo_1": [
+            "- El deseo de comunicarse. La emoción y la proximidad como base del intercambio comunicativo.",
+            "- La expresión facial y corporal: gestos de intención, necesidad y estado de ánimo, así como las sensaciones que los acompañan.",
+            "- El contacto e intercambio visuales.",
+            "- Las primeras interacciones tónico-emocionales y posturales. Expresiones faciales y gestuales. El diálogo corporal.",
+            "- Nanas, canciones de arrullo, juegos de regazo, juegos de corro, retahílas, pareados, adivinanzas sencillas y cuentos de fórmula.",
+            "- Actitudes comunicativas significativas: atención conjunta, mirada referencial y comprensión de las expresiones emocionales de la persona adulta y reacción ante ellas.",
+            "- Los objetos de uso compartido como mediadores en los primeros contextos de interacción.",
+            "- Estrategias y utilización de normas que facilitan los intercambios en situaciones comunicativas que potencian el respeto y la igualdad: el contacto visual con el interlocutor, la escucha atenta, el turno de diálogoy la alternancia.",
+            "- Utilización de expresiones convencionales de cortesía (hola, adiós, gracias, por favor, buenos días, hasta mañana...).",
+            "- El lenguaje oral en situaciones cotidianas: primeras conversaciones con sonidos, vocalizaciones y juegos de interacción.",
+            "- Expresión de necesidades, vivencias y emociones.",
+            "- Lenguaje oral como regulador de la propia conducta.",
+            "- Repertorio lingüístico: situaciones comunicativas, conversaciones colectivas, léxico y discurso.",
+            "- La expresión sonora y la articulación de las palabras. Juegos de imitación, lingüísticos y de percepción auditiva.",
+            "- Comprensión del mundo y de mensajes a través de la escucha activa.",
+            "- Vocabulario: denominaciuón de la realidad",
+            "- Formas escritas y otros símbolos presentes en el entorno.",
+            "- Acercamiento a los usos del lenguaje escrito.",
+            "- Realización de grafos sencillos (horizontal, vertical...).",
+            "- Lectura a través de modelos lectores de referencia."
+          ],
+          "infantil_ciclo_2": [
+            "- Repertorio comunicativo y elementos de comunicación no verbal.",
+            "- Comunicación interpersonal: empatía y asertividad.",
+            "- Convenciones sociales del intercambio lingüístico en situaciones comunicativas que potencien el respeto y la igualdad: atención, escucha activa, turnos de diálogo y alternancia. Acomodación a las diferentes situaciones y formatos de comunicación.",
+            "- Comunicación virtual.",
+            "- El lenguaje oral en situaciones cotidianas: conversaciones, juegos de interacción social y expresión de vivencias.",
+            "- Textos orales formales e informales.",
+            "- Intención comunicativa de los mensajes.",
+            "- Verbalización de la secuencia de acciones en una acción planificada.",
+            "- Discriminación auditiva y concienca fonológica",
+            "- Los usos sociales de la lectura y la escritura. Funcionalidad y significatividad en situaciones comunicativas.",
+            "- Textos escritos en diferentes soportes.",
+            "- Intención comunicativa y acercamiento a las principales características textuales y paratextuales. Primeras hipótesis para la interpretación y compresión.",
+            "- Las propiedades del sistema de escritura: hipótesis cuantitativas y cualitativas.",
+            "- Aproximación al código escrito desde las escrituras indeterminadas.",
+            "- Otros códigos de representación gráfica: imágenes, símbolos, números…",
+            "- Iniciación a estrategias de búsqueda de información, reelaboración y comunicación.",
+            "- Situaciones de lectura individual o a través de modelos lectores de referencia que favorezcan la formulación de hipótesis sobre el significado de los textos.",
+            "- Aplicaciones y herramientas digitales con distintos fines: creación, comunicación, aprendizaje y disfrute.",
+            "- Uso crítico, saludable y responsable de las tecnologías digitales.",
+            "- Lectura, creación e interpretación crítica de imágenes e información recibida a través de medios digitales.",
+            "- Función educativa de los dispositivos y elementos tecnológicos de su entorno. Búsqueda y tratamiento de la información digital.",
+            "- Desarrollo de la curiosidad y motivación de las tecnologías digitales.",
+            "- Desarrollo del pensamiento computacional. Creación de materiales didácticos digitales."
+          ],
+          "primaria_ciclo_1": [
+            "- Incidencia de los componentes (situación, participantes o intención) en el acto comunicativo.",
+            "- Tipologías textuales: la narración, la descripción y el diálogo.",
+            "- Propiedades textuales: estrategias elementales para la coherencia y la cohesión.",
+            "- Géneros discursivos propios del ámbito personal y educativo. Contenido y forma.",
+            "- Interacción oral: interacción oral adecuada en contextos informales, escucha activa, asertividad, resolución dialogada de conflictos y cortesía lingüística. La expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas.",
+            "- Comprensión oral: identificación de las ideas más relevantes e interpretación del sentido global. Detección de usos claramente discriminatorios del lenguaje verbal y no verbal.",
+            "- Producción oral: pronunciación y entonación. Actitud postural. Construcción y comunicación de conocimiento mediante la planificación y producción de textos orales y multimodales sencillos.",
+            "- Comprensión lectora: estrategias elementales de comprensión lectora antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Lectura compartida. Detección de usos claramente discriminatorios del lenguaje verbal y no verbal. Selección de textos según el gusto personal. Hábito lector.",
+            "- Producción escrita: convenciones del código escrito y ortografía natural. Coherencia textual. Estrategias elementales, individuales o grupales, de planificación, textualización, revisión y autocorrección. Uso de elementos gráficos y paratextuales elementales. Escritura en soporte digital acompañada. Plan de escritura. Dictados",
+            "- Alfabetización mediática e informacional: estrategias elementales para la búsqueda guiada de información. Comunicación de la información. Reconocimiento de autoría. Uso guiado de la biblioteca, así como de recursos digitales del aula.",
+            "Recursos digitales para comunicarse con personas conocidas en entornos conocidos y seguros."
+          ],
+          "primaria_ciclo_2": [
+            "- Incidencia de los componentes (situación, participantes, propósito comunicativo, canal) en el acto comunicativo.",
+            "- Tipologías textuales: la narración, la descripción, el diálogo y la exposición.",
+            "- Propiedades textuales: estrategias básicas para la coherencia y la cohesión.",
+            "- Géneros discursivos propios del ámbito personal, social y educativo. Contenido y forma.",
+            "- Interacción oral: interacción oral adecuada en contextos formales e informales, escucha activa, asertividad, resolución dialogada de conflictos y cortesía lingüística. La expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas.",
+            "- Comprensión oral: identificación de las ideas más relevantes e interpretación del sentido global realizando las inferencias necesarias. Detección de posibles usos discriminatorios del lenguaje verbal y no verbal.",
+            "- Producción oral: elementos básicos de la prosodia y de la comunicación no verbal. Construcción, comunicación y valoración de conocimiento mediante la planificación y producción de textos orales y multimodales.",
+            "- Comprensión lectora: estrategias de comprensión lectora antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global realizando las inferencias necesarias. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Lectura compartida y entonada. Detección de posibles usos discriminatorios del lenguaje verbal y no verbal. Selección de libros según el gusto personal. Plan lector.",
+            "- Producción escrita: convenciones del código escrito y ortografía reglada básica. Coherencia y cohesión textual. Estrategias básicas, individuales o grupales, de planificación, textualización, revisión y autocorrección. Uso de elementos gráficos y paratextuales básicos al servicio de la comprensión. Resumen de textos de diferentes tipos dentro de los ámbitos personal y escolar. Escritura en soporte digital acompañada. Plan de escritura. Dictados",
+            "- Alfabetización mediática e informacional: estrategias básicas para la búsqueda guiada de información en fuentes documentales variadas y con distintos soportes y formatos. Reconocimiento de autoría. Comparación y comunicación creativa de la información. Uso de la biblioteca, así como de recursos digitales del aula.",
+            "Estrategias de búsquedas guiadas de información seguras y eficientes en Internet (valoración, discriminación, selección y organización). Reglas básicas de seguridad y privacidad para navegar por Internet y para proteger el entorno digital personal de aprendizaje. Recursos y plataformas digitales restringidas y seguras para comunicarse con otras personas. Etiqueta digital, reglas básicas de cortesía y respeto y estrategias para resolver problemas en la comunicación digital. Estrategias para fomentar el bienestar digital físico y mental. Reconocimiento de los riesgos asociados a un uso inadecuado y poco seguro de las tecnologías digitales (tiempo excesivo de uso, ciberacoso, acceso a contenidos inadecuados, publicidad y correos no deseados, etc.) y estrategias de actuación."
+          ],
+          "primaria_ciclo_3": [
+            "- Interacciones entre los componentes del hecho comunicativo (situación, participantes, propósito comunicativo, canal, registro).",
+            "- Tipologías textuales: la narración, la descripción, el diálogo, la exposición y la argumentación.",
+            "- Propiedades textuales: estrategias básicas para la coherencia, cohesión y adecuación.",
+            "- Géneros discursivos propios del ámbito personal, social y educativo. Contenido y forma. Redes sociales y sus riesgos.",
+            "- Interacción oral: interacción oral y adecuada en contextos formales e informales, escucha activa, asertividad, resolución dialogada de conflictos y cortesía lingüística. La expresión y escucha empática de necesidades, vivencias y emociones propias y ajenas.",
+            "- Comprensión oral: identificación de las ideas más relevantes e interpretación del sentido global realizando las inferencias necesarias. Valoración crítica. Detección de usos discriminatorios del lenguaje verbal y no verbal.",
+            "- Producción oral: elementos de la prosodia y de la comunicación no verbal. Construcción, comunicación y valoración crítica de conocimiento mediante la planificación y producción de textos orales y multimodales con progresiva autonomía.",
+            "- Comprensión lectora: estrategias de comprensión lectora antes, durante y después de la lectura. Identificación de las ideas más relevantes e interpretación del sentido global realizando las inferencias necesarias. Valoración crítica. Identificación de elementos gráficos y paratextuales al servicio de la comprensión. Lectura compartida y expresiva. Detección de usos discriminatorios del lenguaje verbal y no verbal. Selección de libros según el gusto personal. Plan lector.",
+            "- Producción escrita: ortografía reglada en la textualización y la autocorrección. Coherencia, cohesión y adecuación textual. Estrategias básicas, individuales o grupales, de planificación, textualización, revisión y autocorrección. Uso de elementos gráficos y paratextuales al servicio de la comprensión. Escritura en soporte digital acompañada. Plan de escritura. Dictados",
+            "- Alfabetización mediática e informacional: estrategias para la búsqueda de información en distintas fuentes documentales y con distintos soportes y formatos. Reconocimiento de autoría. Comparación, organización, valoración crítica y comunicación creativa de la información. Uso progresivamente autónomo de la biblioteca, así como de recursos digitales del aula.",
+            "Estrategias de búsquedas de información seguras y eficientes en Internet (valoración, discriminación, selección, organización y propiedad intelectual). Estrategias de recogida, almacenamiento y representación de datos para facilitar su comprensión y análisis. Reglas básicas de seguridad y privacidad para navegar por Internet y para proteger el entorno digital personal de aprendizaje. Recursos y plataformas digitales restringidas y seguras para comunicarse con otras personas. Etiqueta digital, reglas básicas de cortesía y respeto y estrategias para resolver problemas en la comunicación digital. Estrategias para fomentar el bienestar digital físico y mental. Reconocimiento de los riesgos asociados a un uso inadecuado y poco seguro de las tecnologías digitales (tiempo excesivo de uso, ciberacoso, dependencia tecnológica, acceso a contenidos inadecuados, etc.) y estrategias de actuación."
+          ]
+        },
+        "C. EDUCACIÓN LITERARIA": {
+          "infantil_ciclo_1": [
+            "- Textos literarios infantiles orales y escritos con contenido adecuado al desarrollo infantil que, preferentemente, desarrollen valores sobre la cultura de paz, los derechos de la infancia, la igualdad de género y ladiversidad funcional y étnico-cultural.",
+            "- Interés y disfrute con la escucha de cuentos, poesías, rimas, canciones, refranes, trabalenguas y adivinanzas de tradición cultural de nuestra región, y otras culturas presentes en el entorno participando activamente en juegos lingüísticos.",
+            "- Situaciones de lectura. Vínculos afectivos y lúdicos a través de modelos lectores de referencia."
+          ],
+          "infantil_ciclo_2": [
+            "- Textos literarios infantiles orales y escritos adecuados al desarrollo infantil, que preferiblemente desarrollen valores sobre cultura de paz, derechos de la infancia, igualdad de género y diversidad funcional y étnico-cultural. Participación creativa en juegos lingüísticos.",
+            "- La poesía y los juegos de palabras como elementos de aprendizaje y disfrute.",
+            "- Vínculos afectivos y lúdicos con los textos literarios.",
+            "- Utilización y disfrute de la biblioteca. Normas de uso.",
+            "- Conversaciones y diálogos en torno a textos literarios libres de todo tipo de prejuicios y estereotipos."
+          ],
+          "primaria_ciclo_1": [
+            "- Lectura acompañada de obras o fragmentos variados y diversos de la literatura infantil adecuados a sus intereses y organizados en itinerarios lectores.",
+            "- Estrategias para la interpretación acompañada y compartida de las obras a través de conversaciones literarias.",
+            "- Relación, de manera acompañada, entre los elementos constitutivos esenciales de la obra literaria (tema, personajes, argumento, espacio) y la construcción del sentido de la obra.",
+            "- Relación de los textos leídos y otras manifestaciones artísticas y culturales.",
+            "- Inicio de la construcción de la identidad lectora. Estrategias para la expresión de gustos e intereses.",
+            "- Lectura expresiva, dramatización o interpretación de fragmentos atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+            "- Creación de textos literarios a partir de modelos dados.",
+            "- Uso acompañado de la biblioteca"
+          ],
+          "primaria_ciclo_2": [
+            "- Lectura acompañada de obras o fragmentos variados y diversos de la literatura infantil, adecuados a sus intereses y organizados en itinerarios lectores.",
+            "- Estrategias básicas para la interpretación acompañada y compartida de las obras a través de conversaciones literarias.",
+            "- Relación, de manera acompañada, entre los elementos constitutivos esenciales de la obra literaria (tema, protagonistas, personajes secundarios, argumento, espacio) y la construcción del sentido de la obra.",
+            "- Análisis guiado de los recursos expresivos y sus efectos en la recepción del texto.",
+            "- Relación entre los textos leídos y otras manifestaciones artísticas y culturales.",
+            "- Construcción de la identidad lectora. Estrategias para la expresión de gustos e intereses e iniciación a la valoración argumentada de las obras.",
+            "- Lectura expresiva, dramatización o interpretación de fragmentos atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+            "- Creación de textos con intención literaria de manera libre, a partir de modelos dados o recreando textos literarios.",
+            "- Uso acompañado de la biblioteca de aula o de centro como escenario de actividades literarias compartidas."
+          ],
+          "primaria_ciclo_3": [
+            "- Lectura progresivamente autónoma de obras o fragmentos variados y diversos de la literatura adecuados a su edad y organizados en itinerarios lectores.",
+            "- Estrategia para la interpretación compartida de las obras a través de conversaciones literarias.",
+            "- Relación de manera acompañada, entre los elementos constitutivos de la obra literaria (tema, protagonistas, personajes secundarios, argumento y espacio) y la construcción del sentido de la obra.",
+            "- Análisis acompañado de la relación entre los elementos básicos del género literario y la construcción del sentido de la obra.",
+            "- Estrategias básicas para la interpretación progresivamente autónoma de los textos literarios.",
+            "- Relación entre los textos leídos y otras manifestaciones artísticas y culturales.",
+            "- Progreso en la construcción de la identidad lectora. Estrategias para la expresión de gustos e intereses y para la valoración crítica elemental de las obras.",
+            "- Lectura expresiva, dramatización o interpretación de fragmentos atendiendo a los procesos de comprensión y al nivel de desarrollo.",
+            "- Identificación de recursos literarios.",
+            "- Creación de textos de intención literaria de manera libre y a partir de la recreación y apropiación de los modelos dados.",
+            "- Uso progresivamente autónomo de la biblioteca de aula o de centro como escenario de actividades literarias compartidas."
+          ]
+        },
+        "D. REFLEXIÓN SOBRE LA LENGUA Y USOS EN EL MARCO DE PROPUESTAS": {
+          "primaria_ciclo_1": [
+            "- Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de palabras y enunciados, prestando especial atención a la existencia de distintos tipos de palabras y sus relaciones de concordancia.",
+            "- Diferencias elementales entre lengua oral y lengua escrita. Procedimientos elementales de adquisición de vocabulario.",
+            "- Reflexión contextualizada sobre la relación de significado entre unas palabras y otras.",
+            "- Relación entre intención comunicativa y modalidad oracional.",
+            "- Mecanismos elementales de coherencia y de cohesión textual, con especial atención a los conectores temporales.",
+            "- Signos básicos de puntuación como mecanismo para organizar el texto escrito.",
+            "- Aproximación a la lengua como sistema con distintos niveles: sonidos y letras, palabras, oraciones y textos breves. Observación y comparación de unidades comunicativas básicas.",
+            "- Procedimientos elementales de adquisición de vocabulario. Mecanismos léxicos básicos para la formación de palabras."
+          ],
+          "primaria_ciclo_2": [
+            "- Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de enunciados, prestando especial atención a las relaciones que se establecen entre sustantivos, adjetivos y verbos.",
+            "- Aproximación a la lengua como sistema con distintos niveles: sonidos y letras, palabras, oraciones y textos. Observación y comparación de unidades comunicativas básicas.",
+            "- Procedimientos elementales de adquisición de vocabulario. Similitudes y diferencias de forma y significado entre palabras de la misma familia léxica o semántica.",
+            "- Relación entre intención comunicativa y modalidad oracional.",
+            "- Mecanismos elementales de coherencia y cohesión, con especial atención a las repeticiones y sinónimos, y al orden de oraciones y párrafos.",
+            "- Los signos de puntuación como mecanismos para organizar el texto escrito y para expresar la intención comunicativa.",
+            "- Estrategias elementales para el uso guiado de diccionarios, en distintos soportes."
+          ],
+          "primaria_ciclo_3": [
+            "- La sílaba. Diptongos e hiatos. Sílaba tónica y átona.",
+            "- Establecimiento de generalizaciones sobre aspectos lingüísticos elementales a partir de la observación, comparación y transformación de palabras y enunciados.",
+            "- Aproximación a la lengua como sistema con distintos niveles: sonidos y letras, palabras, oraciones y textos. Observación y comparación de unidades comunicativas básicas.",
+            "- Procedimientos básicos de adquisición de vocabulario. Mecanismos léxicos básicos para la formación de palabras.",
+            "- Relación entre intención comunicativa y modalidad oracional.",
+            "- Mecanismos básicos de coherencia y cohesión, con especial atención a las sustituciones pronominales y a la correlación temporal establecida mediante los distintos tiempos verbales.",
+            "- Estrategias de observación y formulación de generalizaciones sobre la acentuación.",
+            "- Los signos de puntuación como mecanismos para organizar el texto y expresar intención comunicativa.",
+            "- Estrategias básicas para el uso progresivamente autónomo de diccionarios, en distintos soportes.",
+            "- Reconocimiento y observación reflexiva de los constituyentes oracionales: la oración simple, sujeto y predicado."
+          ]
+        }
+      }
+    },
+    {
+      "nombre": "Área de Matemáticas (D. 209/2022) / Área 2 Infantil",
+      "competencias_especificas": [
+        {
+          "ce": "CE 1: Interpretar situaciones de la vida cotidiana proporcionando una representación matemática de las mismas mediante conceptos, herramientas y estrategias para analizar la información más relevante.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A2. 1.2 Emplear los cuantificadores básicos más significativos relacionados con su experiencia diaria, utilizándolos en el contexto del juego y la interacción con los demás."
+            ],
+            "infantil_ciclo_2": [
+              "A2. 1.2 Emplear los cuantificadores básicos más significativos en el contexto del juego y la interacción con los demás."
+            ],
+            "primaria_ciclo_1": [
+              "1.1. Comprender las preguntas planteadas a través de diferentes estrategias o herramientas, reconociendo la información contenida en problemas de la vida cotidiana.",
+              "1.2. Proporcionar ejemplos de representaciones de situaciones problematizadas sencillas, con recursos manipulativos y gráficos que ayuden en la resolución de un problema de la vida cotidiana."
+            ],
+            "primaria_ciclo_2": [
+              "1.1. Interpretar, de forma verbal o gráfica, problemas de la vida cotidiana, comprendiendo las preguntas planteadas a través de diferentes estrategias o herramientas, incluidas las tecnológicas.",
+              "1.2. Producir representaciones matemáticas a través de esquemas o diagramas que ayuden en la resolución de una situación problematizada."
+            ],
+            "primaria_ciclo_3": [
+              "1.1. Comprender problemas de la vida cotidiana a través de la reformulación de la pregunta, de forma verbal y gráfica.",
+              "1.2. Elaborar representaciones matemáticas que ayuden en la búsqueda y elección de estrategias y herramientas, incluidas las tecnológicas, para la resolución de una situación problematizada."
+            ]
+          }
+        },
+        {
+          "ce": "CE 2: Resolver situaciones problematizadas, aplicando diferentes técnicas, estrategias y formas de razonamiento, para explorar distintas maneras de proceder, obtener soluciones y asegurar su validez desde un punto de vista formal y en relación con el contexto planteado.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A2. 2.1 Gestionar las dificultades, retos y problemas con interés e  iniciativa, mediante su división en secuencias de actividdaes más sencillas.",
+              "A2. 2.2 Proponer soluciones y alternativas  a través de distintas estrategías, escuchando y respetando a los demás."
+            ],
+            "infantil_ciclo_2": [
+              "A2. 2.1 Gestionar situaciones, dificultades, retos o problemas mediante la planificación de secuencias de actividades, la manifestación de interés e iniciativa y la cooperación con los iguales.",
+              "A2. 2.2 Utilizar diferentes estrategias para la toma de decisiones con progresiva autonomía, afrontando el proceso de creación de soluciones originales en respuestas a los retos que se plantean."
+            ],
+            "primaria_ciclo_1": [
+              "2.1. Emplear algunas estrategias adecuadas en la resolución de problemas.",
+              "2.2. Obtener posibles soluciones a problemas, de forma guiada, aplicando estrategias básicas de resolución.",
+              "2.3. Describir verbalmente la idoneidad de las soluciones de un problema a partir de las preguntas previamente planteadas."
+            ],
+            "primaria_ciclo_2": [
+              "2.1. Comparar entre diferentes estrategias para resolver un problema de forma pautada.",
+              "2.2. Obtener posibles soluciones de un problema siguiendo alguna estrategia conocida.",
+              "2.3. Demostrar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado."
+            ],
+            "primaria_ciclo_3": [
+              "2.1. Seleccionar entre diferentes estrategias para resolver un problema, justificando la elección.",
+              "2.2. Obtener posibles soluciones de un problema, seleccionando entre varias estrategias conocidas de forma autónoma.",
+              "2.3. Comprobar la corrección matemática de las soluciones de un problema y su coherencia en el contexto planteado."
+            ]
+          }
+        },
+        {
+          "ce": "CE 3: Explorar, formular y comprobar conjeturas sencillas o plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana, de forma guiada, reconociendo el valor del razonamiento y la argumentación para contrastar su validez, adquirir e integrar nuevo conocimiento",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A2. 1.1 Relacionar objetos a partir de sus cualidades o atributos básicos, mostrando curiosidad e interes."
+            ],
+            "infantil_ciclo_2": [
+              "A2. 1.1 Establecer dintintas relaciones entre los objetos a partir de sus cualidades o atributos, mostrando curiosidad e interes.",
+              "A2. 3.1 1.4 Identificar las situaciones cotidianas en las que es preciso medir, utilizando el cuerpo u otros materiales y herramientas para efectuar las medidas"
+            ],
+            "primaria_ciclo_1": [
+              "3.1. Realizar conjeturas matemáticas sencillas, investigando patrones, propiedades y relaciones de forma guiada.",
+              "3.2. Dar ejemplos de problemas a partir de situaciones cotidianas que se resuelven matemáticamente."
+            ],
+            "primaria_ciclo_2": [
+              "3.1. Analizar conjeturas matemáticas sencillas investigando patrones, propiedades y relaciones de forma pautada.",
+              "3.2. Dar ejemplos de problemas sobre situaciones cotidianas que se resuelven matemáticamente."
+            ],
+            "primaria_ciclo_3": [
+              "3.1. Formular conjeturas matemáticas sencillas investigando patrones, propiedades y relaciones de forma guiada.",
+              "3.2. Plantear nuevos problemas sobre situaciones cotidianas que se resuelvan matemáticamente."
+            ]
+          }
+        },
+        {
+          "ce": "CE 4: Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes, reconociendo patrones, generalizando e interpretando, modificando y creando algoritmos de forma guiada, para modelizar y automatizar situaciones de la vida cotidiana.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A2. 1.5 Organizar su actividad, ordenando las secuencias y utilizando las nociones temporales básicas."
+            ],
+            "primaria_ciclo_1": [
+              "4.1. Describir rutinas y actividades sencillas de la vida cotidiana que se realicen paso a paso, utilizando principios básicos del pensamiento computacional de forma guiada.",
+              "4.2. Emplear herramientas tecnológicas adecuadas, de forma guiada, en el proceso de resolución de problemas."
+            ],
+            "primaria_ciclo_2": [
+              "4.3. Automatizar situaciones sencillas de la vida cotidiana que se realicen paso a paso o sigan una rutina, utilizando de forma pautada principios básicos del pensamiento computacional.",
+              "4.4. Emplear herramientas tecnológicas adecuadas en el proceso de resolución de problemas."
+            ],
+            "primaria_ciclo_3": [
+              "4.5. Modelizar situaciones de la vida cotidiana utilizando, de forma pautada, principios básicos del pensamiento computacional.",
+              "4.6. Emplear herramientas tecnológicas adecuadas en la investigación y resolución de problemas."
+            ]
+          }
+        },
+        {
+          "ce": "CE 5: Reconocer y utilizar conexiones entre las diferentes ideas matemáticas, así como identificar las matemáticas implicadas en otras áreas o en la vida cotidiana, interrelacionando conceptos y procedimientos para interpretar situaciones y contextos diversos.",
+          "criterios_evaluacion": {
+            "primaria_ciclo_1": [
+              "5.1. Reconocer conexiones entre los diferentes elementos matemáticos aplicando conocimientos y experiencias propios.",
+              "5.2. Reconocer las matemáticas presentes en la vida cotidiana y en otras áreas, estableciendo conexiones sencillas entre ellas."
+            ],
+            "primaria_ciclo_2": [
+              "5.1. Realizar conexiones entre los diferentes elementos matemáticos, aplicando conocimientos y experiencias propios.",
+              "5.2. Interpretar situaciones en contextos diversos, reconociendo las conexiones entre las matemáticas y la vida cotidiana."
+            ],
+            "primaria_ciclo_3": [
+              "5.1. Utilizar conexiones entre diferentes elementos matemáticos movilizando conocimientos y experiencias propios.",
+              "5.2. Utilizar las conexiones entre las matemáticas, otras áreas y la vida cotidiana para resolver problemas en contextos no matemáticos."
+            ]
+          }
+        },
+        {
+          "ce": "CE 6: Comunicar y representar, de forma individual y colectiva, conceptos, procedimientos y resultados matemáticos, utilizando el lenguaje oral, escrito, gráfico, multimodal y la terminología, para dar significado y permanencia a las ideas matemáticas.",
+          "criterios_evaluacion": {
+            "primaria_ciclo_1": [
+              "6.1. Reconocer lenguaje matemático sencillo presente en la vida cotidiana, adquiriendo vocabulario específico básico.",
+              "6.2. Explicar ideas y procesos matemáticos sencillos, los pasos seguidos en la resolución de un problema o los resultados matemáticos, de forma verbal o gráfica."
+            ],
+            "primaria_ciclo_2": [
+              "6.1. Reconocer lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario específico básico y mostrando comprensión del mensaje.",
+              "6.2. Explicar los procesos e ideas matemáticas, los pasos seguidos en la resolución de un problema o los resultados obtenidos, utilizando un lenguaje matemático sencillo en diferentes formatos."
+            ],
+            "primaria_ciclo_3": [
+              "6.1. Interpretar lenguaje matemático sencillo presente en la vida cotidiana en diferentes formatos, adquiriendo vocabulario apropiado y mostrando la comprensión del mensaje.",
+              "6.2. Comunicar en diferentes formatos las conjeturas y procesos matemáticos, utilizando lenguaje matemático adecuado."
+            ]
+          }
+        },
+        {
+          "ce": "CE 7: Desarrollar destrezas personales que ayuden a identificar y gestionar emociones al enfrentarse a retos matemáticos, fomentando la confianza en las propias posibilidades, aceptando el error como parte del proceso de aprendizaje y adaptándose a las situaciones de incertidumbre, para mejorar la perseverancia y disfrutar en el aprendizaje de las matemáticas",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A1. 2.2. Relacionarse con las otras personas aceptando y mostrando afecto de manera libre, segura, respetuosa y alejada de todo tipo de estereotipos."
+            ],
+            "infantil_ciclo_2": [
+              "A1. 2.2. Ofrecer y pedir ayuda en situaciones cotidianas , valorando los beneficios de la cooperación y la ayuda entre iguales."
+            ],
+            "primaria_ciclo_1": [
+              "7.1. Reconocer las emociones básicas propias al abordar retos matemáticos, pidiendo ayuda solo cuando sea necesario.",
+              "7.2. Expresar actitudes positivas ante retos matemáticos, valorando el error como una oportunidad de aprendizaje."
+            ],
+            "primaria_ciclo_2": [
+              "7.1. Identificar las emociones propias al abordar retos matemáticos, pidiendo ayuda solo cuando sea necesario y desarrollando la autoconfianza.",
+              "7.2. Mostrar actitudes positivas ante retos matemáticos tales como el esfuerzo y la flexibilidad, valorando el error como una oportunidad de aprendizaje."
+            ],
+            "primaria_ciclo_3": [
+              "7.1. Autorregular las emociones propias y reconocer algunas fortalezas y debilidades, desarrollando así la autoconfianza al abordar nuevos retos matemáticos.",
+              "7.2. Elegir actitudes positivas ante retos matemáticos, tales como la perseverancia y la responsabilidad, valorando el error como una oportunidad de aprendizaje."
+            ]
+          }
+        },
+        {
+          "ce": "CE 8: Desarrollar destrezas sociales, reconociendo y respetando las emociones, las experiencias de los demás y el valor de la diversidad y participando activamente en equipos de trabajo heterogéneos con roles asignados, para construir una identidad positiva como estudiante de matemáticas, fomentar el bienestar personal y crear relaciones saludables.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A1. 2.2. Relacionarse con las otras personas aceptando y mostrando afecto de manera libre, segura, respetuosa y alejada de todo tipo de estereotipos."
+            ],
+            "infantil_ciclo_2": [
+              "A1. 2.2. Ofrecer y pedir ayuda en situaciones cotidianas , valorando los beneficios de la cooperación y la ayuda entre iguales."
+            ],
+            "primaria_ciclo_1": [
+              "8.1. Participar respetuosamente en el trabajo en equipo, estableciendo relaciones saludables basadas en el respeto, la igualdad y la resolución pacífica de conflictos.",
+              "8.2. Aceptar la tarea y rol asignado en el trabajo en equipo, cumpliendo con las responsabilidades individuales y contribuyendo a la consecución de los objetivos del grupo."
+            ],
+            "primaria_ciclo_2": [
+              "8.1. Trabajar en equipo activa y respetuosamente, comunicándose adecuadamente, respetando la diversidad del grupo y estableciendo relaciones saludables basadas en la igualdad y la resolución pacífica de conflictos.",
+              "8.2. Participar en el reparto de tareas, asumiendo y respetando las responsabilidades individuales asignadas y empleando estrategias sencillas de trabajo en equipo dirigidas a la consecución de objetivos compartidos."
+            ],
+            "primaria_ciclo_3": [
+              "8.1. Trabajar en equipo activa, respetuosa y responsablemente, mostrando iniciativa, comunicándose de forma efectiva, valorando la diversidad, mostrando empatía y estableciendo relaciones saludables basadas en el respeto, la igualdad y la resolución pacífica de conflictos.",
+              "8.2. Colaborar en el reparto de tareas, asumiendo y respetando las responsabilidades individuales asignadas y empleando estrategias de trabajo en equipo sencillas dirigidas a la consecución de objetivos compartidos."
+            ]
+          }
+        }
+      ],
+      "saberes_basicos": {
+        "A. SENTIDO NUMÉRICO": {
+          "infantil_ciclo_1": [
+            "- Cuantificadores básicos.",
+            "- Juego y experimentación con números y pequeñas operaciones de unión y sustracción de elemntos a un conjunto. Numeración y distintas verbalizaciones de cantidad y conteo.",
+            "- Curiosidad e interes por la exploración del entorno y sus elementos.",
+            "- Identificación de las cualidades o atributos de objetos y materiales.",
+            "- Relaciones de  correspondencia, clasificación y comparación."
+          ],
+          "infantil_ciclo_2": [
+            "- Cuantificadores básicos contextualizados: muchos-pocos, unos-algunos-varios, más que-menos que, todos-ninguno…",
+            "- Funcionalidad de los números en la vida cotidiana.",
+            "- Cualidades o atributos de objetos y amteriales. Relaciones de orden, correspondencia,clasificación y comparación.",
+            "- Identificación de cualidades (tamaño, cantidad), y sus grados(pocos, muchos, pequeño, mediano, grande).",
+            "- Cuantificadores básicos contexttualizados; muchos-pocos, unos, algunos varios, más que-menos que, todos-ninguno..."
+          ],
+          "primaria_ciclo_1": [
+            "- Estrategias variadas de conteo y recuento sistemático en situaciones de la vida cotidiana en cantidades hasta el 999.",
+            "- Estimaciones razonadas de cantidades en contextos de resolución de problemas.",
+            "- Lectura, representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición y recomposición de números naturales hasta 999.",
+            "- Representación de una misma cantidad de distintas formas (manipulativa, gráfica o numérica) y estrategias de elección de la representación adecuada para cada situación o problema.",
+            "- Estrategias de cálculo mental con números naturales hasta 999.",
+            "- Suma y resta de números naturales resueltas con flexibilidad y sentido: utilidad en situaciones contextualizadas, estrategias y herramientas de resolución y propiedades.",
+            "- Sistema de numeración de base diez (hasta el 999): aplicación de las relaciones que genera en las operaciones.",
+            "- Números naturales en contextos de la vida cotidiana: comparación y ordenación.",
+            "- Números ordinales (hasta el 20º).",
+            "- Relaciones entre la suma y la resta: aplicación en contextos cotidianos.",
+            "- Sistema monetario europeo: monedas (1, 2 euros) y billetes de euro (5, 10, 20, 50 y 100), valor y equivalencia."
+          ],
+          "primaria_ciclo_2": [
+            "- Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana en cantidades hasta el 9999.",
+            "- Estrategias y técnicas de interpretación y manipulación del orden de magnitud de los números (decenas, centenas y millares).",
+            "- Estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas.",
+            "- Lectura, representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición y recomposición de números naturales hasta 9999.",
+            "- Fracciones propias con denominador hasta 12 en contextos de la vida cotidiana.",
+            "- Estrategias de cálculo mental con números naturales y fracciones.",
+            "- Estrategias de reconocimiento de qué operaciones simples (suma, resta, multiplicación, división como reparto y partición) son útiles para resolver situaciones contextualizadas.",
+            "- Construcción de las tablas de multiplicar apoyándose en número de veces, suma repetida o disposición en cuadrículas.",
+            "- Memorización de las tablas de multiplicar.",
+            "- Identificación y uso de los términos propios de la división.",
+            "- Suma, resta, multiplicación y división de números naturales resueltas con flexibilidad y sentido: utilidad en situaciones contextualizadas: estrategias y herramientas de resolución y propiedades.",
+            "- Sistema de numeración de base diez (hasta el 9999): aplicación de las relaciones que genera en las operaciones.",
+            "- Números naturales y fracciones homogéneas menores de la unidad en contextos de la vida cotidiana: comparación y ordenación.",
+            "- Números ordinales.",
+            "- Relaciones entre la suma y la resta, y la multiplicación y la división: aplicación en contextos cotidianos.",
+            "- Cálculo y estimación de cantidades y cambio (euros y céntimos de euro) en de la vida cotidiana: ingresos, gastos y ahorro. Decisiones de compra responsable."
+          ],
+          "primaria_ciclo_3": [
+            "- Estrategias variadas de conteo, recuento sistemático y adaptación del conteo al tamaño de los números en situaciones de la vida cotidiana.",
+            "- Estrategias y técnicas de interpretación y manipulación del orden de magnitud de los números.",
+            "- Estimaciones y aproximaciones razonadas de cantidades en contextos de resolución de problemas.",
+            "- Lectura, representación (incluida la recta numérica y con materiales manipulativos), composición, descomposición y recomposición de números naturales y decimales hasta las milésimas.",
+            "- Fracciones y decimales para expresar cantidades en contextos de la vida cotidiana y elección de la mejor representación para cada situación o problema.",
+            "- Estrategias de cálculo mental con números naturales, enteros, fracciones y decimales.",
+            "- Estrategias de reconocimiento de qué operaciones simples o combinadas (suma, resta, multiplicación, división) son útiles para resolver situaciones contextualizadas.",
+            "- Potencia como producto de factores iguales. Cuadrados y cubos.",
+            "- Estrategias de resolución de operaciones aritméticas (con números naturales, decimales y fracciones) con flexibilidad y sentido: mentalmente, de manera escrita o con calculadora; utilidad en situaciones contextualizadas y propiedades.",
+            "- Sistema de numeración de base diez (números naturales y decimales hasta las milésimas): aplicación de las relaciones que genera en las operaciones.",
+            "- Números naturales, fracciones homogéneas y heterogéneas menores y mayores de la unidad y decimales hasta las milésimas en contextos de la vida cotidiana: comparación y ordenación.",
+            "- Sistema de numeración romano.",
+            "- Relaciones entre las operaciones aritméticas: aplicación en contextos cotidianos.",
+            "- Relación de divisibilidad: múltiplos y divisores.",
+            "- Mínimo común múltiplo y máximo común divisor.",
+            "- Números primos y números compuestos.",
+            "- Criterios de divisibilidad.",
+            "- Obtención de los primeros múltiplos de un número dado.",
+            "- Obtención de todos los divisores de cualquier número menor que 100.",
+            "- Relación entre fracciones sencillas, decimales y porcentajes.",
+            "- Resolución de problemas relacionados con el consumo responsable (valor/precio, calidad/precio y mejor precio) y con el dinero: precios, intereses y rebajas."
+          ]
+        },
+        "B. SENTIDO DE LA MEDIDA": {
+          "infantil_ciclo_1": [
+            "- Nociones temporales básicas: cambio y permanencia, continuidad; sucesión y simultaneidad; pasado, presente y futuro",
+            "- Mediciones de longitudes, volumen, peso, superficie y temperatura mediante comparación y experimentación entre objetos, con medios variados, desde las medidas naturales hasta instrumentos de medida estandarizados.",
+            "-Identificación de las cualidades o atributos de los objetos y materiales."
+          ],
+          "infantil_ciclo_2": [
+            "- El tiempo y su organización: día-noche, estaciones, ciclos, calendario.",
+            "- Situaciones en las que se hace necesario medir. Diferentes herramientas de medida convencionales (regla, metro, balanza, recipientes,)y no convencionales (pasos, pies, cuerdas, piedras,).",
+            "- Identificación de cualidades (tamaño, cantidad…)y sus grados(pocos, muchos, pequeño, mediano, grande."
+          ],
+          "primaria_ciclo_1": [
+            "- Atributos mensurables de los objetos (longitud, masa, capacidad), distancias y tiempos.",
+            "- Unidades convencionales (metro, kilo y litro) y no convencionales en situaciones de la vida cotidiana.",
+            "- Unidades de medida del tiempo (año, mes, semana, día y hora) en situaciones de la vida cotidiana.",
+            "- Procesos para medir mediante repetición de una unidad y mediante la utilización de instrumentos convencionales (reglas, cintas métricas, balanzas, calendarios,...) y no convencionales en contextos familiares.",
+            "- Estrategias de comparación directa y ordenación de medidas de la misma magnitud.",
+            "- Estimación de medidas (distancias, tamaños, masas, capacidades...) por comparación directa con otras medidas."
+          ],
+          "primaria_ciclo_2": [
+            "- Atributos mensurables de los objetos (longitud, masa, capacidad, superficie, volumen y amplitud del ángulo).",
+            "- Unidades convencionales (km, m, cm, mm; kg, g; l y ml) y no convencionales en situaciones de la vida cotidiana.",
+            "- Medida del tiempo (año, mes, semana, día, hora y minutos) y determinación de la duración de periodos de tiempo.",
+            "- Estrategias para realizar mediciones con instrumentos y unidades no convencionales (repetición de una unidad, uso de cuadrículas y materiales manipulativos) y convencionales.",
+            "- Procesos de medición mediante instrumentos convencionales (regla, cinta métrica, balanzas, reloj analógico y digital).",
+            "- Estrategias de comparación y ordenación de medidas de la misma magnitud (km, m, cm, mm; kg, g; l y ml): aplicación de equivalencias entre unidades en problemas de la vida cotidiana que impliquen convertir en unidades más pequeñas.",
+            "- Estimación de medidas de longitud, masa y capacidad por comparación.",
+            "- Evaluación de resultados de mediciones y estimaciones o cálculos de medidas."
+          ],
+          "primaria_ciclo_3": [
+            "- Unidades convencionales del sistema métrico decimal (longitud, masa, capacidad, volumen y superficie) y sistema sexagesimal (tiempo y ángulos) en contextos de la vida cotidiana: selección y uso de las unidades adecuadas.",
+            "- Instrumentos (analógicos o digitales) y unidades adecuadas para medir longitudes, objetos, ángulos y tiempos: selección y uso.",
+            "- Estrategias de comparación y ordenación de medidas de la misma magnitud, aplicando las equivalencias entre unidades (sistema métrico decimal) en problemas de la vida cotidiana.",
+            "- Relación entre el sistema métrico decimal y el sistema de numeración decimal.",
+            "- Estimación de medidas de ángulos y superficies por comparación.",
+            "- Evaluación de resultados de mediciones y estimaciones o cálculos de medidas, razonando si son o no posibles."
+          ]
+        },
+        "C. SENTIDO ESPACIAL": {
+          "infantil_ciclo_1": [
+            "- Nociones espaciales básicas en relación con el propio cuerpo y los objetos."
+          ],
+          "infantil_ciclo_2": [
+            "- Nociones espaciales básicas en relación con el propio cuerpo, los objetos y las acciones, tanto en reposo como en movimiento."
+          ],
+          "primaria_ciclo_1": [
+            "- Figuras geométricas sencillas de dos dimensiones en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos.",
+            "- Estrategias y técnicas de construcción de figuras geométricas sencillas de una, dos o tres dimensiones de forma manipulativa.",
+            "- Vocabulario geométrico básico: descripción verbal de los elementos y las propiedades de figuras geométricas sencillas.",
+            "- Propiedades de figuras geométricas de dos dimensiones: exploración mediante materiales manipulables y herramientas digitales.",
+            "- Posición relativa de objetos en el espacio e interpretación de movimientos: descripción en referencia a uno mismo a través de vocabulario adecuado (arriba, abajo, delante, detrás, entre, más cerca que, menos cerca que, más lejos que, menos lejos que,…).",
+            "- Identificación de figuras transformadas mediante traslaciones y simetrías en situaciones de la vida cotidiana.",
+            "- Generación de figuras transformadas a partir de simetrías y traslaciones de un patrón inicial y predicción del resultado.",
+            "- Modelos geométricos en la resolución de problemas relacionados con los otros sentidos.",
+            "- Relaciones geométricas: reconocimiento en el entorno."
+          ],
+          "primaria_ciclo_2": [
+            "- Figuras geométricas de dos o tres dimensiones en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos y a las relaciones entre ellos.",
+            "- Estrategias y técnicas de construcción de figuras geométricas de dos dimensiones por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo (regla y escuadra) y aplicaciones informáticas.",
+            "- Vocabulario geométrico básico: descripción verbal de los elementos y las propiedades de figuras formas geométricas sencillas.",
+            "- Propiedades de figuras geométricas de dos y tres dimensiones: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y el manejo de herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.).",
+            "- Descripción de la posición relativa de objetos en el espacio o de sus representaciones suyas utilizando vocabulario geométrico adecuado (paralelo, perpendicular, oblicuo, derecha, izquierda, etc.)",
+            "- Descripción verbal e interpretación de movimientos, en relación a uno mismo o a otros puntos de referencia, utilizando vocabulario geométrico adecuado.",
+            "- Interpretación de itinerarios en planos, utilizando soportes físicos y virtuales.",
+            "- Transformaciones mediante giros, traslaciones y simetrías en situaciones de la vida cotidiana: identificación de figuras transformadas, generación a partir de patrones iniciales y predicción del resultado.",
+            "- Semejanza en situaciones de la vida cotidiana: identificación de figuras semejantes, generation a partir de patrones iniciales y predicción del resultado.",
+            "- Estrategias para el cálculo de perímetros de figuras planas y utilización en la resolución de problemas de la vida cotidiana.",
+            "- Modelos geométricos en la resolución de problemas relacionados con los otros sentidos.",
+            "- Reconocimiento de relaciones geométricas en campos ajenos a la clase de matemáticas, como el arte, las ciencias y la vida cotidiana."
+          ],
+          "primaria_ciclo_3": [
+            "- Figuras geométricas en objetos de la vida cotidiana: identificación y clasificación atendiendo a sus elementos y a las relaciones entre ellos.",
+            "- Técnicas de construcción de figuras formas geométricas por composición y descomposición, mediante materiales manipulables, instrumentos de dibujo y aplicaciones informáticas.",
+            "- Vocabulario geométrico: descripción verbal de los elementos y las propiedades de formas geométricas.",
+            "- Propiedades de formas geométricas: exploración mediante materiales manipulables (cuadrículas, geoplanos, policubos, etc.) y herramientas digitales (programas de geometría dinámica, realidad aumentada, robótica educativa, etc.).",
+            "- Localización y desplazamientos en planos y mapas a partir de puntos de referencia (incluidos los puntos cardinales), direcciones y cálculo de distancias (escalas): descripción e interpretación con el vocabulario adecuado en soportes físicos y virtuales.",
+            "- Descripción de posiciones y movimientos en el primer cuadrante del sistema de coordenadas cartesiano.",
+            "- Estrategias para el cálculo de áreas y perímetros de figuras planas en situaciones de la vida cotidiana.",
+            "- Modelos geométricos en la resolución de problemas relacionados con los otros sentidos.",
+            "- Elaboración de conjeturas sobre propiedades geométricas, utilizando instrumentos de dibujo (compás y transportador de ángulos) y programas de geometría dinámica.",
+            "- Las ideas y las relaciones geométricas en el arte, las ciencias y la vida cotidiana"
+          ]
+        },
+        "D. SENTIDO ALGEBRÁICO": {
+          "primaria_ciclo_1": [
+            "- Estrategias para la identificación, descripción oral, descubrimiento de elementos ocultos y extensión de secuencias a partir de las regularidades en una colección de números, figuras o imágenes.",
+            "- Proceso guiado de modelización (dibujos, esquemas, diagramas, objetos manipulables, dramatizaciones...) en la comprensión y resolución de problemas de la vida cotidiana.",
+            "- Expresión de relaciones de igualdad y desigualdad mediante los signos = y ≠ entre expresiones que incluyan operaciones.",
+            "- Representación de la igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos.",
+            "- Estrategias para la interpretación de algoritmos sencillos (rutinas, instrucciones con pasos ordenados…)."
+          ],
+          "primaria_ciclo_2": [
+            "- Identificación, descripción verbal, representación y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes.",
+            "- Proceso pautado de modelización usando representaciones matemáticas (gráficas, tablas...) para facilitar la comprensión y la resolución de problemas de la vida cotidiana.",
+            "- Relaciones de igualdad y desigualdad, y uso de los signos = y ≠ entre expresiones que incluyan operaciones y sus propiedades.",
+            "- La igualdad como expresión de una relación de equivalencia entre dos elementos y obtención de datos sencillos desconocidos (representados por medio de un símbolo) en cualquiera de los dos elementos.",
+            "- Representación de la relación “mayor que” y “menor que”, y uso de los signos < y >.",
+            "- Estrategias para la interpretación y modificación de algoritmos sencillos (reglas de juegos, instrucciones secuenciales, bucles, patrones repetitivos, programación por bloques, robótica educativa...)."
+          ],
+          "primaria_ciclo_3": [
+            "- Estrategias de identificación, representación (verbal o mediante tablas, gráficos y notaciones inventadas) y predicción razonada de términos a partir de las regularidades en una colección de números, figuras o imágenes.",
+            "- Creación de patrones recurrentes a partir de regularidades o de otros patrones utilizando números, figuras o imágenes.",
+            "- Proceso de modelización a partir de problemas de la vida cotidiana, usando representaciones matemáticas.",
+            "- Relaciones de igualdad y desigualdad y uso de los signos < y >. Determinación de datos desconocidos (representados por medio de una letra o un símbolo) en expresiones sencillas relacionadas mediante estos signos y los signos = y ≠.",
+            "- Estrategias para la interpretación, modificación y creación de algoritmos sencillos (secuencias de pasos ordenados, esquemas, simulaciones, patrones repetitivos, bucles, instrucciones anidadas y condicionales, representaciones computacionales, programación por bloques, robótica educativa...)."
+          ]
+        },
+        "E. SENTIDO ESTOCÁSTICO": {
+          "primaria_ciclo_1": [
+            "- Estrategias de reconocimiento de los principales elementos y extracción de la información relevante de gráficos estadísticos muy sencillos de la vida cotidiana (pictogramas, gráficas de barras...).",
+            "- Estrategias sencillas para la recogida, clasificación y recuento de datos cualitativos y cuantitativos en muestras pequeñas.",
+            "- Representación de datos obtenidos a través de recuentos mediante gráficos estadísticos sencillos y recursos manipulables y tecnológicos.",
+            "- La probabilidad como medida subjetiva de la incertidumbre.",
+            "- Reconocimiento de la incertidumbre en situaciones de la vida cotidiana y mediante la realización de experimentos.",
+            "- Identificación de suceso seguro, suceso posible y suceso imposible.",
+            "- Comparación de la probabilidad de dos sucesos de forma intuitiva.",
+            "- Formulación de conjeturas a partir de los datos recogidos y analizados, dándoles sentido en el contexto de estudio."
+          ],
+          "primaria_ciclo_2": [
+            "- Gráficos estadísticos de la vida cotidiana (pictogramas, gráficas de barras, histogramas...): lectura e interpretación.",
+            "- Estrategias sencillas para la recogida, clasificación y organización de datos cualitativos o cuantitativos discretos en muestras pequeñas mediante calculadora y aplicaciones informáticas sencillas. Frecuencia absoluta: interpretación.",
+            "- Gráficos estadísticos sencillos (diagrama de barras y pictogramas) para representar datos, seleccionando el más conveniente, mediante recursos tradicionales y aplicaciones informáticas sencillas.",
+            "- La moda: interpretación como el dato más frecuente.",
+            "- Comparación gráfica de dos conjuntos de datos para establecer relaciones y extraer conclusiones.",
+            "- La incertidumbre en situaciones de la vida cotidiana: cuantificación y estimación mediante la comprobación de la estabilización de las frecuencias relativas en experimentos aleatorios repetitivos.",
+            "- Cálculo de probabilidades en experimentos, comparaciones o investigaciones en los que sea aplicable la regla de Laplace: aplicación de técnicas básicas del conteo.",
+            "- Identificación de un conjunto de datos como muestra de un conjunto más grande y reflexión sobre la población a la que es posible aplicar las conclusiones de investigaciones estadísticas sencillas."
+          ],
+          "primaria_ciclo_3": [
+            "- Conjuntos de datos y gráficos estadísticos de la vida cotidiana: descripción, interpretación y análisis crítico.",
+            "- Estrategias para la realización de un estudio estadístico sencillo: formulación de preguntas, y recogida, registro y organización de datos cualitativos y cuantitativos procedentes de diferentes experimentos (encuestas, mediciones, observaciones…).",
+            "- Tablas de frecuencias absolutas y relativas: interpretación.",
+            "- Gráficos estadísticos sencillos (diagrama de barras, diagrama de sectores, histograma, etc.): representación de datos mediante recursos tradicionales y tecnológicos y selección del más conveniente.",
+            "- Medidas de centralización (media y moda): interpretación, cálculo y aplicación.",
+            "- Medidas de dispersión (rango): cálculo e interpretación.",
+            "- Calculadora y otros recursos digitales, como la hoja de cálculo, para organizar la información estadística y realizar diferentes visualizaciones de los datos.",
+            "- Relación y comparación de dos conjuntos de datos a partir de su representación gráfica: formulación de conjeturas, análisis de la dispersión y obtención de conclusiones."
+          ]
+        },
+        "F. SENTIDO SOCIOAFECTIVO": {
+          "infantil_ciclo_1": [
+            "- Identificación, manejo y desarrollo de las emociones positivas.",
+            "- Aproximación a algunas estrategias para lograr seguridad afectiva: búsqueda de ayuda, demanda de contacto afectivo, vida saludable para el autocuidado y el cuidado del entorno.",
+            "- Identificación y rechazo de actitudes discriminatorias ante las diferencias individuales presentes en el aula. Actitudes inclusivas y aceptación de la diversidad del grupo.",
+            "- Participación activa en el trabajo en equipo: interacción positiva y respeto por el trabajo de los demás.",
+            "- Contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+          ],
+          "infantil_ciclo_2": [
+            "- Herramientas para la identificación, expresión, aceptación y control progresivo de las propias emociones, sentimientos, vivencias, preferencias e intereses.",
+            "- Estrategias de ayuda y cooperación en contextos de juego y rutinas.",
+            "- Estrategias para desarrollar la seguridad en sí mismo, el reconocimiento de sus posibilidades y la asertividad respetuosa hacia los demás.",
+            "- Aceptación constructiva de los errores y las correcciones: manifestaciones de superación y logro.",
+            "- Valoración del trabajo bien hecho: desarrollo inicial de hábitos y actitudes de esfuerzo, constancia, organización, atención e iniciativa.",
+            "- Sensibilidad y respeto ante las diferencias individuales presentes en el aula: identificación y rechazo de actitudes discriminatorias.",
+            "- Participación activa en el trabajo en equipo, escucha activa y respeto por el trabajo de los demás.",
+            "- Reconocimiento y comprensión de las emociones y experiencias de los demás ante las matemáticas.",
+            "- Valoración de la contribución de la geometría a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+          ],
+          "primaria_ciclo_1": [
+            "- Gestión emocional: estrategias de identificación y expresión de las propias emociones ante las matemáticas. Curiosidad e iniciativa en el aprendizaje de las matemáticas."
+          ],
+          "primaria_ciclo_2": [
+            "- Gestión emocional: estrategias de identificación y manifestación de las propias emociones ante las matemáticas. Iniciativa y tolerancia ante la frustración en el aprendizaje de las matemáticas.",
+            "- Fomento de la autonomía y estrategias para la toma de decisiones en situaciones de resolución de problemas."
+          ],
+          "primaria_ciclo_3": [
+            "- Autorregulación emocional: autoconcepto y aprendizaje de las matemáticas desde una perspectiva de género. Estrategias de mejora de la perseverancia y el sentido de la responsabilidad hacia el aprendizaje de las matemáticas.",
+            "- Flexibilidad cognitiva, adaptación y cambio de estrategia en caso necesario. Valoración del error como oportunidad de aprendizaje.",
+            "- Respeto por las emociones y experiencias de los demás ante las matemáticas.",
+            "- Aplicación de técnicas simples para el trabajo en equipo en matemáticas, y estrategias para la gestión de conflictos, promoción de conductas empáticas e inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.",
+            "- Valoración de la contribución de las matemáticas a los distintos ámbitos del conocimiento humano desde una perspectiva de género."
+          ]
+        }
+      }
+    }
+  ]
+}

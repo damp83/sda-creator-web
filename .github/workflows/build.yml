@@ -1,0 +1,49 @@
+name: Compilar SdA Creator (Win y Mac)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: # Permite ejecutar la acción de forma manual desde Github
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest]
+    
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Compilar para Windows
+        if: matrix.os == 'windows-latest'
+        run: npm run dist:win
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Compilar para Mac
+        if: matrix.os == 'macos-latest'
+        run: npm run dist:mac
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Subir instaladores
+        uses: actions/upload-artifact@v4
+        with:
+          name: SdA-Creator-${{ matrix.os }}
+          path: |
+            dist/*.exe
+            dist/*.dmg

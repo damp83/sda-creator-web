@@ -1,0 +1,446 @@
+{
+  "comunidad": "Región de Murcia",
+  "ambito": "ARTÍSTICO",
+  "areas": [
+    {
+      "nombre": "Área de Educación Plástica y Visual (D. 229/2022) / Área 3 Infantil",
+      "competencias_especificas": [
+        {
+          "ce": "CE 1: Descubrir propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa, para desarrollar la curiosidad y el respeto por la diversidad. / ÁREA 3. CE2: Interpretar y comprender mensajes y representaciones apoyándose en conocimientos y recursos de su propia experiencia para responder a las demandas del entorno y construir nuevos aprendizajes.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3 2.1 Interpretar los estímulos y mensajes del entorno, reaccionando de manera adecuada.",
+              "A3 2.2 Expresar sensaciones, sentimientos y emociones a partir de distintas representaciones y manifestaciones artísticas y culturales cercanas al niño, propias de la Región de Murcia."
+            ],
+            "infantil_ciclo_2": [
+              "A3 2.1 Interpretar de forma eficaz los mensajes e intenciones comunicativas de los demás.",
+              "A3 2.2 Interpretar los mensajes transmitidos mediante representaciones o manifestaciones artísticas, también en formato digital, reconociendo la intencionalidad del emisor y mostrando una actitud curiosa y responsable."
+            ],
+            "primaria_ciclo_1": [
+              "1.1. Descubrir propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa y mostrando curiosidad y respeto por las mismas.",
+              "1.2. Describir manifestaciones culturales y artísticas del entorno próximo, explorando sus características con actitud abierta e interés."
+            ],
+            "primaria_ciclo_2": [
+              "1.1. Reconocer propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa y mostrando curiosidad y respeto por las mismas.",
+              "1.2. Describir manifestaciones culturales y artísticas, explorando sus características con actitud abierta e interés y estableciendo relaciones básicas entre ellas."
+            ],
+            "primaria_ciclo_3": [
+              "1.1. Distinguir propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa y mostrando curiosidad y respeto por las mismas.",
+              "1.2. Describir manifestaciones culturales y artísticas, explorando sus características con actitud abierta e interés, estableciendo relaciones entre ellas y valorando la diversidad que las genera."
+            ]
+          }
+        },
+        {
+          "ce": "CE 2: Investigar sobre manifestaciones culturales y artísticas y sus contextos, empleando diversos canales, medios y técnicas, para disfrutar de ellas, entender su valor y empezar a desarrollar una sensibilidad artística propia.",
+          "criterios_evaluacion": {
+            "primaria_ciclo_1": [
+              "2.1. Seleccionar y aplicar estrategias elementales para la búsqueda guiada de información sobre manifestaciones culturales y artísticas, a través de canales y medios de acceso sencillos, tanto de forma individual como cooperativa.",
+              "2.2. Reconocer elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio, indicando los canales, medios y técnicas empleados e identificando diferencias y similitudes.",
+              "2.3. Valorar las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir del análisis y la comprensión de dichas manifestaciones."
+            ],
+            "primaria_ciclo_2": [
+              "2.1. Seleccionar y aplicar estrategias para la búsqueda guiada de información sobre manifestaciones culturales y artísticas, a través de canales y medios de acceso sencillos, tanto de forma individual como colectiva.",
+              "2.2. Distinguir elementos característicos básicos de manifestaciones culturales y artísticas que forman parte del patrimonio, indicando los canales, medios y técnicas utilizados, analizando sus diferencias y similitudes y reflexionando sobre las sensaciones producidas, con actitud de interés y respeto."
+            ],
+            "primaria_ciclo_3": [
+              "2.1. Seleccionar y aplicar estrategias para la búsqueda de información sobre manifestaciones culturales y artísticas, a través de diversos canales y medios de acceso, tanto de forma individual como cooperativa.",
+              "2.2. Comparar el significado y los elementos característicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio, analizando los canales, medios y técnicas vinculados a ellas, así como sus diferencias y similitudes, y desarrollando criterios de valoración propios, con actitud abierta y respetuosa."
+            ]
+          }
+        },
+        {
+          "ce": "CE 3: Expresar y comunicar de manera creativa ideas, sentimientos y emociones, experimentando con las posibilidades del sonido, la imagen, el cuerpo y los medios digitales, para producir obras propias. / ÁREA 3. CE3: Producir mensajes de manera eficaz, personal y creativa...",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3 3.2 Explorar las posibilidades expresivas de los diferentes lenguajes, utilizando los medios materiales propios de los mismos.",
+              "A3 5.4 Expresar emociones, ideas y pensamientos a través de manifestaciones artísticas y culturales, disfrutando del proceso creativo",
+              "A3 5.5 Expresar gustos, preferencias y opiniones sobre distintas manifestaciones artísticas, explicando las emociones que produce su disfrute."
+            ],
+            "infantil_ciclo_2": [
+              "A3 3.4 Elaborar creaciones plásticas, explorando y utilizando diferentes materiales y técnicas y participando activamente en el trabajo en grupo cuando se precise."
+            ],
+            "primaria_ciclo_1": [
+              "3.1. Producir obras propias de manera guiada, utilizando algunas de las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales básicos, y mostrando confianza en las capacidades propias.",
+              "3.2. Expresar de forma guiada ideas, sentimientos y emociones a través de manifestaciones artísticas sencillas, experimentando con los diferentes lenguajes e instrumentos a su alcance."
+            ],
+            "primaria_ciclo_2": [
+              "3.1. Producir obras propias básicas, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales básicos, y mostrando confianza en las capacidades propias.",
+              "3.2. Expresar con creatividad ideas, sentimientos y emociones a través de manifestaciones artísticas básicas, experimentando con los diferentes lenguajes e instrumentos a su alcance."
+            ],
+            "primaria_ciclo_3": [
+              "3.1. Producir obras propias básicas, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales básicos y mostrando confianza en las capacidades propias.",
+              "3.2. Expresar con creatividad ideas, sentimientos y emociones a través de diversas manifestaciones artísticas, utilizando los diferentes lenguajes e instrumentos a su alcance, mostrando confianza en las propias capacidades y perfeccionando la ejecución."
+            ]
+          }
+        },
+        {
+          "ce": "CE 4: Participar del diseño, la elaboración y la difusión de producciones culturales y artísticas individuales o colectivas, poniendo en valor el proceso y asumiendo diferentes funciones en la consecución de un resultado final, para desarrollar la creatividad, la noción de autoría y el sentido de pertenencia.",
+          "criterios_evaluacion": {
+            "infantil_ciclo_2": [
+              "4.2. Tomar parte en el proceso cooperativo de producciones culturales y artísticas de forma respetuosa y utilizando elementos básicos de diferentes lenguajes y técnicas artísticas."
+            ],
+            "primaria_ciclo_1": [
+              "4.1. Participar de manera guiada en el diseño de producciones culturales y artísticas elementales, trabajando de forma cooperativa a partir de la igualdad y el respeto a la diversidad.",
+              "4.2. Participar en el proceso cooperativo de producciones culturales y artísticas, de forma creativa y respetuosa, utilizando elementos básicos de diferentes lenguajes y técnicas artísticas.",
+              "4.3. Compartir los proyectos creativos, explicando el proceso y el resultado final obtenido, y valorando las experiencias propias y las de los demás."
+            ],
+            "primaria_ciclo_2": [
+              "4.1. Participar de manera guiada en el diseño de producciones culturales y artísticas, trabajando de forma cooperativa en la consecución de un resultado final planificado y asumiendo diferentes funciones, desde la igualdad y el respeto a la diversidad.",
+              "4.2. Participar activamente en el proceso cooperativo de producciones culturales y artísticas, de forma creativa y respetuosa y utilizando elementos de diferentes lenguajes y técnicas artísticas.",
+              "4.3. Compartir los proyectos creativos, empleando estrategias comunicativas básicas, explicando el proceso y el resultado final obtenido, y respetando y valorando las experiencias propias y las de los demás."
+            ],
+            "primaria_ciclo_3": [
+              "4.1. Planificar y diseñar producciones culturales y artísticas colectivas, trabajando de forma cooperativa en la consecución de un resultado final y asumiendo diferentes funciones, desde la igualdad y el respeto a la diversidad.",
+              "4.2. Participar activamente en el proceso cooperativo de producciones culturales y artísticas, de forma creativa y respetuosa y utilizando elementos de diferentes lenguajes y técnicas artísticas.",
+              "4.3. Compartir los proyectos creativos, empleando diferentes estrategias comunicativas y a través de diversos medios, explicando el proceso y el resultado final obtenido, y respetando y valorando las experiencias propias y de los demás."
+            ]
+          }
+        }
+      ],
+      "saberes_basicos": {
+        "A. RECEPCIÓN Y ANÁLISIS / ÁREA 3 BLOQUE G: EL LENGUAJE Y LA EXPRESIÓN PLÁSTICOS Y VISUALES": {
+          "infantil_ciclo_1": [
+            "- Utilización de materiales, colores, volúmenes, texturas, técnicas y procedimientos plásticos que estimulen la imaginación y favorezcan la creatividad.",
+            "- Identificación de colores más usuales utilizados por el niño en sus actividades habituales.",
+            "- Cuidado y limpieza de los materiales.",
+            "- Expresiones plásticas y visuales. Otras expresiones artísticas. Artesanía.",
+            "- El placer de la contemplación: Observación de obras de arte. Interpretación y emoción compartida.",
+            "- Valoración y respeto por las producciones propias y de los demás."
+          ],
+          "infantil_ciclo_2": [
+            "- Materiales específicos e inespecíficos, elementos, diversidad de técnicas y procedimientos plásticos, materiales y soportes. Experimentación y manipulación.",
+            "- Intención expresiva de producciones plásticas y pictóricas.",
+            "- Manifestaciones plásticas variadas. Otras manifestaciones artísticas como la artesanía, la pintura, la escultura y la fotografía.",
+            "- Tradiciones artísticas de la Región de Murcia.",
+            "- Valoración y respeto por las producciones propias y de los demás.",
+            "- Reconocimiento y aceptación del pensamiento lateral como modo distinto de expresión artística."
+          ],
+          "primaria_ciclo_1": [
+            "- Principales propuestas artísticas de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales.",
+            "- Estrategias básicas de recepción activa.",
+            "- Normas elementales de comportamiento en la recepción de propuestas artísticas en diferentes espacios. El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción.",
+            "- Vocabulario específico básico de las artes plásticas y visuales y las artes audiovisuales.",
+            "- Recursos digitales básicos para las artes plásticas y visuales y las artes audiovisuales."
+          ],
+          "primaria_ciclo_2": [
+            "- Propuestas artísticas de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales.",
+            "- Estrategias de recepción activa.",
+            "- Normas comunes de comportamiento y actitud positiva en la recepción de propuestas artísticas en diferentes espacios. El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción.",
+            "- Vocabulario específico de uso común en las artes plásticas y visuales y las artes audiovisuales.",
+            "- Recursos digitales de uso común para las artes plásticas y visuales y las artes audiovisuales.",
+            "- Estrategias básicas de análisis de propuestas artísticas desde una perspectiva de género."
+          ],
+          "primaria_ciclo_3": [
+            "- Propuestas artísticas de diferentes corrientes estéticas, procedencias y épocas producidas por creadoras y creadores locales, regionales, nacionales e internacionales.",
+            "- Estrategias de recepción activa.",
+            "- Normas de comportamiento y actitud positiva en la recepción de propuestas artísticas en diferentes espacios. El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción.",
+            "- Vocabulario específico de las artes plásticas y visuales y las artes audiovisuales.",
+            "- Recursos digitales de uso común para las artes plásticas y visuales y las artes audiovisuales.",
+            "- Estrategias básicas de análisis de propuestas artísticas desde una perspectiva de género."
+          ]
+        },
+        "B. CREACIÓN E INTERPRETACIÓN": {
+          "primaria_ciclo_1": [
+            "- Fases del proceso creativo: planificación guiada y experimentación.",
+            "- Profesiones vinculadas con las artes plásticas y visuales y las artes audiovisuales.",
+            "- Interés tanto por el proceso como por el producto final en producciones plásticas, visuales y audiovisuales."
+          ],
+          "primaria_ciclo_2": [
+            "- Fases del proceso creativo: planificación, interpretación y experimentación.",
+            "- Profesiones vinculadas con las artes plásticas y visuales, las artes audiovisuales.",
+            "- Interés y valoración tanto por el proceso como por el producto final en producciones plásticas, visuales y audiovisuales."
+          ],
+          "primaria_ciclo_3": [
+            "- Fases del proceso creativo: planificación, interpretación, experimentación y evaluación.",
+            "- Profesiones vinculadas con las artes plásticas y visuales y las artes audiovisuales.",
+            "- Evaluación, interés y valoración tanto por el proceso como por el producto final en producciones plásticas, visuales y audiovisuales.",
+            "- Uso responsable de bancos de imágenes y sonidos: respeto a las licencias de uso y distribución de contenidos generados por otros. Plagio y derechos de autor."
+          ]
+        },
+        "C. ARTES PLÁSTICAS, VISUALES Y AUDIOVISUALES": {
+          "primaria_ciclo_1": [
+            "- Cultura visual. La imagen en el mundo actual: técnicas y estrategias básicas de lectura.",
+            "- Elementos configurativos básicos del lenguaje visual: punto, línea, plano, textura, color.",
+            "- Materiales, instrumentos, soportes y técnicas elementales utilizados en la expresión plástica y visual.",
+            "- Medios, soportes y materiales de expresión plástica y visual. Técnicas bidimensionales y tridimensionales básicas en dibujos y modelados sencillos.",
+            "- Herramientas adecuadas para el registro de imagen y sonido.",
+            "- Estrategias y técnicas básicas de composición de historias audiovisuales sencillas.",
+            "- Nociones básicas sobre cine."
+          ],
+          "primaria_ciclo_2": [
+            "- Cultura visual. La imagen en el mundo actual: técnicas y estrategias básicas de lectura e interpretación.",
+            "- Elementos configurativos básicos del lenguaje visual y sus posibilidades expresivas: punto, línea, plano, textura, color.",
+            "- Materiales, instrumentos, soportes y técnicas de uso común utilizados en la expresión plástica y visual.",
+            "- Medios, soportes y materiales de expresión plástica y visual. Técnicas bidimensionales y tridimensionales en dibujos y modelados sencillos.",
+            "- Técnicas, materiales y recursos informáticos y tecnológicos básicos: su aplicación para la captura y manipulación de producciones plásticas y visuales.",
+            "- Registro y edición básica de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
+            "- Estrategias y técnicas de uso común de composición de historias audiovisuales.",
+            "- El cine como forma de narración.",
+            "- Géneros y formatos básicos de producciones audiovisuales.",
+            "- Producciones multimodales: iniciación en la realización con diversas herramientas.",
+            "- Características elementales del lenguaje audiovisual multimodal.",
+            "- Aproximación a las herramientas y las técnicas básicas de animación."
+          ],
+          "primaria_ciclo_3": [
+            "- Cultura visual. La imagen en el mundo actual: técnicas y estrategias de lectura, análisis e interpretación.",
+            "- Elementos configurativos del lenguaje visual y sus posibilidades expresivas: punto, línea, plano, textura, color.",
+            "- Materiales, instrumentos, soportes y técnicas en la expresión plástica y visual.",
+            "- Medios, soportes y materiales de expresión plástica y visual. Técnicas bidimensionales y tridimensionales en dibujos y modelados.",
+            "- Técnicas, materiales y recursos informáticos y tecnológicos: su aplicación para la captura, creación, manipulación y difusión de producciones plásticas y visuales.",
+            "- Registro y edición de elementos audiovisuales: conceptos, tecnologías, técnicas y recursos elementales y de manejo sencillo.",
+            "- Estrategias y técnicas de composición de historias audiovisuales.",
+            "- El cine: origen y evolución.",
+            "- Géneros y formatos de producciones audiovisuales.",
+            "- Producciones multimodales: realización con diversas herramientas.",
+            "- Características del lenguaje audiovisual multimodal.",
+            "- Las herramientas y las técnicas básicas de animación."
+          ]
+        }
+      }
+    },
+    {
+      "nombre": "Área de Música y Danza (D. 209/2022) / Área 3 Infantil",
+      "competencias_especificas": [
+        {
+          "ce": "CE 1: Descubrir propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa, para desarrollar la curiosidad y el respeto por la diversidad. / ÁREA 3. CE2. Interpretar y comprender mensajes y representaciones apoyándose en conocimientos y recursos de su propia experiencia para responder a las demandas del entorno y construir nuevos aprendizajes",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3 2.1 Interpretar los estímulos y mensajes del entorno, reaccionando de manera adecuada.",
+              "A3 2.2 Expresar sensaciones, sentimientos y emociones a partir de distintas representaciones y manifestaciones artísticas y culturales cercanas al niño, propias de la Región de Murcia."
+            ],
+            "infantil_ciclo_2": [
+              "A3 2.1 Interpretar de forma eficaz los mensajes e intenciones comunicativas de los demás.",
+              "A3 2.2 Interpretar los mensajes transmitidos mediante representaciones o manifestaciones artísticas, también en formato digital, reconociendo la intencionalidad del emisor y mostrando una actitud curiosa y responsable."
+            ],
+            "primaria_ciclo_1": [
+              "1.1. Descubrir propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa y mostrando curiosidad y respeto por las mismas.",
+              "1.2. Describir manifestaciones culturales y artísticas del entorno próximo, explorando sus características con actitud abierta e interés."
+            ],
+            "primaria_ciclo_2": [
+              "1.1. Reconocer propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa y mostrando curiosidad y respeto por las mismas.",
+              "1.2. Describir manifestaciones culturales y artísticas, explorando sus características con actitud abierta e interés y estableciendo relaciones básicas entre ellas."
+            ],
+            "primaria_ciclo_3": [
+              "1.1. Distinguir propuestas artísticas de diferentes géneros, estilos, épocas y culturas, a través de la recepción activa, y mostrando curiosidad y respeto por las mismas.",
+              "1.2. Describir manifestaciones culturales y artísticas, explorando sus características con actitud abierta e interés, estableciendo relaciones entre ellas y valorando la diversidad que las genera."
+            ]
+          }
+        },
+        {
+          "ce": "CE 2: Investigar sobre manifestaciones culturales y artísticas y sus contextos, empleando diversos canales, medios y técnicas, para disfrutar de ellas, entender su valor y empezar a desarrollar una sensibilidad artística propia.",
+          "criterios_evaluacion": {
+            "primaria_ciclo_1": [
+              "2.1. Seleccionar y aplicar estrategias elementales para la búsqueda guiada de información sobre manifestaciones culturales y artísticas, a través de canales y medios de acceso sencillos, tanto de forma individual como cooperativa.",
+              "2.2. Reconocer elementos característicos básicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio, indicando los canales, medios y técnicas empleados e identificando diferencias y similitudes.",
+              "2.3. Valorar las sensaciones y emociones producidas por diferentes manifestaciones culturales y artísticas, a partir del análisis y la comprensión de dichas manifestaciones."
+            ],
+            "primaria_ciclo_2": [
+              "2.1. Seleccionar y aplicar estrategias básicas para la búsqueda guiada de información sobre manifestaciones culturales y artísticas, a través de canales y medios de acceso sencillos, tanto de forma individual como colectiva.",
+              "2.2. Distinguir elementos característicos básicos de manifestaciones culturales y artísticas que forman parte del patrimonio indicando los canales, medios y técnicas utilizados, analizando sus diferencias y similitudes y reflexionando sobre las sensaciones producidas, con actitud de interés y respeto."
+            ],
+            "primaria_ciclo_3": [
+              "2.1. Seleccionar y aplicar estrategias para la búsqueda de información sobre manifestaciones culturales y artísticas, a través de diversos canales y medios de acceso, tanto de forma individual como cooperativa.",
+              "2.2. Comparar el significado y los elementos característicos de distintas manifestaciones culturales y artísticas que forman parte del patrimonio, analizando los canales, medios y técnicas vinculados a ellas, así como sus diferencias y similitudes, y desarrollando criterios de valoración propios, con actitud abierta y respetuosa."
+            ]
+          }
+        },
+        {
+          "ce": "CE 3: Expresar y comunicar de manera creativa ideas, sentimientos y emociones, experimentando con las posibilidades del sonido, la imagen, el cuerpo y los medios digitales, para producir obras propias. / CE1. Progresar en el conocimiento y control de su cuerpo... / COMPETENCIA ESPECÍFICA 3: Producir mensajes de manera eficaz...",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3 1.1 Adecuar sus acciones y reacciones a cada situación, en una interacción lúdica y espontánea con el entorno, explorando sus posibilidades motoras y perceptivas y progresando en precisión, seguridad, coordinación e intencionalidad.",
+              "A3 1.3 Manifestar aptitud emocional y sentimientos de seguridad y afecto en la realización de cada acción."
+            ],
+            "infantil_ciclo_2": [
+              "A3 1.1 Progresar en el conocimiento de su cuerpo ajustando acciones y reacciones y desarrollando el equilibrio, la percepción sensorial y la coordinación en el movimiento.",
+              "A3. 3.5 Interpretar propuestas dramáticas y musicales, utilizando y explorando diferentes instrumentos, recursos o técnicas."
+            ],
+            "primaria_ciclo_1": [
+              "3.1. Producir obras propias de manera guiada, utilizando algunas de las posibilidades expresivas del cuerpo, el sonido y los medios digitales básicos, y mostrando confianza en las capacidades propias.",
+              "3.2. Expresar de forma guiada ideas, sentimientos y emociones, a través de manifestaciones artísticas sencillas, experimentando con los diferentes lenguajes e instrumentos a su alcance."
+            ],
+            "primaria_ciclo_2": [
+              "3.1. Producir obras propias básicas, utilizando las posibilidades expresivas del cuerpo, el sonido y los medios digitales básicos, y mostrando confianza en las capacidades propias.",
+              "3.2. Expresar con creatividad ideas, sentimientos y emociones, a través de manifestaciones artísticas básicas, experimentando con los diferentes lenguajes e instrumentos a su alcance."
+            ],
+            "primaria_ciclo_3": [
+              "3.1. Producir obras propias básicas, utilizando las posibilidades expresivas del cuerpo, el sonido, la imagen y los medios digitales básicos y mostrando confianza en las capacidades propias.",
+              "3.2. Expresar con creatividad ideas, sentimientos y emociones a través de diversas manifestaciones artísticas, utilizando los diferentes lenguajes e instrumentos a su alcance, mostrando confianza en las propias capacidades y perfeccionando la ejecución."
+            ]
+          }
+        },
+        {
+          "ce": "CE 4: Participar del diseño, la elaboración y la difusión de producciones culturales y artísticas individuales o colectivas, poniendo en valor el proceso y asumiendo diferentes funciones en la consecución de un resultado final, para desarrollar la creatividad, la noción de autoría y el sentido de pertenencia. / ÁREA 3. CE5: Valorar la diversidad lingüística presente en su entorno...",
+          "criterios_evaluacion": {
+            "infantil_ciclo_1": [
+              "A3 5.2 Manifestar interés y disfrute hacia actividades individuales o colectivas relacionadas con la literatura infantil, las obras musicales, los audiovisuales, las danzas o las dramatizaciones, avanzando en una actitud participativa."
+            ],
+            "infantil_ciclo_2": [
+              "A3 5.4 Expresar emociones, ideas y pensamientos a través de manifestaciones artísticas y culturales, disfrutando del proceso creativo.",
+              "4.2. Tomar parte en el proceso cooperativo de producciones culturales y artísticas de forma respetuosa y utilizando elementos básicos de diferentes lenguajes y técnicas artísticas."
+            ],
+            "primaria_ciclo_1": [
+              "4.1. Participar de manera guiada en el diseño de producciones culturales y artísticas elementales, trabajando de forma cooperativa a partir de la igualdad y el respeto a la diversidad.",
+              "4.2. Participar en el proceso cooperativo de producciones culturales y artísticas, de forma creativa y respetuosa, utilizando elementos básicos de diferentes lenguajes y técnicas artísticas.",
+              "4.3. Compartir los proyectos creativos, explicando el proceso y el resultado final obtenido, y valorando las experiencias propias y las de los demás."
+            ],
+            "primaria_ciclo_2": [
+              "4.1. Participar de manera guiada en el diseño de producciones culturales y artísticas, trabajando de forma cooperativa en la consecución de un resultado final planificado y asumiendo diferentes funciones, desde la igualdad y el respeto a la diversidad.",
+              "4.2. Participar activamente en el proceso cooperativo de producciones culturales y artísticas, de forma creativa y respetuosa y utilizando elementos de diferentes lenguajes y técnicas artísticas.",
+              "4.3. Compartir los proyectos creativos, empleando estrategias comunicativas básicas, explicando el proceso y el resultado final obtenido, y respetando y valorando las experiencias propias y las de los demás."
+            ],
+            "primaria_ciclo_3": [
+              "4.1. Planificar y diseñar producciones culturales y artísticas colectivas, trabajando de forma cooperativa en la consecución de un resultado final y asumiendo diferentes funciones, desde la igualdad y el respeto a la diversidad.",
+              "4.2. Participar activamente en el proceso cooperativo de producciones culturales y artísticas, de forma creativa y respetuosa y utilizando elementos de diferentes lenguajes y técnicas artísticas.",
+              "4.3. Compartir los proyectos creativos, empleando diferentes estrategias comunicativas y a través de diversos medios, explicando el proceso y el resultado final obtenido, y respetando y valorando las experiencias propias y de los demás."
+            ]
+          }
+        }
+      ],
+      "saberes_basicos": {
+        "A. RECEPCIÓN Y ANÁLISIS / ÁREA 3 BLOQUE A: EL CUERPO Y EL CONTROL PROGRESIVO DEL MISMO": {
+          "infantil_ciclo_1": [
+            "- Descubrimiento y reconocimiento de la propia imagen y la de las personas de su entorno. Identificación, respeto de las diferencias y valoración positiva.",
+            "- Curiosidad e interés por la exploración sensomotriz. Integración sensorial del mundo a través de las posibilidades perceptivas.",
+            "- Exploración y experiencias activas. El movimiento libre como fuente de aprendizaje y desarrollo.",
+            "- Experimentación de bienestar, alegría y dominio a través de experiencias de movimiento versátiles, tanto en el espacio interior como en el exterior."
+          ],
+          "infantil_ciclo_2": [
+            "- Imagen global y segmentaria del cuerpo: características individuales y percepción de los cambios físicos.",
+            "- El movimiento: control progresivo de la coordinación, el tono, el equilibrio y los desplazamientos. Exploración de la lateralidad.",
+            "- Dominio activo del tono y la postura en función de las características de los objetos, acciones y situaciones.",
+            "- Confianza en las propias posibilidades de acción, participación y esfuerzo."
+          ],
+          "primaria_ciclo_1": [
+            "- Contextualización y audición de las principales propuestas artísticas de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales:\n  o Música clásica: Prehistoria, Barroco y Clasicismo.\n  o Música moderna: Pop.",
+            "- Tradiciones y fiestas significativas del folklore de la Región de Murcia.",
+            "- Estrategias básicas de recepción activa. Disfrute de propuestas musicales vocales e instrumentales: audición activa, asistencia a conciertos y recitales.",
+            "- Normas elementales de comportamiento en la recepción de propuestas artísticas en diferentes espacios.",
+            "- El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción.",
+            "- Consciencia de la contaminación acústica que nos rodea y valoración crítica.",
+            "- Vocabulario específico básico de la música, la danza y las artes escénicas performativas.",
+            "- Recursos digitales básicos para la música, la danza y las artes escénicas y performativas."
+          ],
+          "primaria_ciclo_2": [
+            "- Contextualización, audición y profundización de propuestas artísticas de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales:\n  o Música clásica: de la Prehistoria al Romanticismo.\n  o Música moderna: Pop, Rock, música latina y subgéneros.",
+            "- Tradiciones y fiestas significativas del folklore de la Región de Murcia.",
+            "- Estrategias de recepción activa. Conocimiento de propuestas musicales vocales e instrumentales: audición activa, asistencia a conciertos y recitales.",
+            "- Normas comunes de comportamiento y actitud positiva en la recepción de propuestas artísticas en diferentes espacios.",
+            "- El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción.",
+            "- Consciencia de la contaminación acústica que nos rodea y valoración crítica.",
+            "- Vocabulario específico de uso común en la música, la danza y las artes escénicas performativas.",
+            "- Recursos digitales de uso común para la música, la danza y las artes escénicas y performativas:\n  - Recursos digitales para la educación auditiva. Aplicaciones informáticas de grabación y edición de audio. Utilización de bancos de sonidos para su creación.",
+            "- Utilización responsable de las principales plataformas musicales como medio de reproducción de canciones.",
+            "- Estrategias básicas de análisis de propuestas artísticas desde una perspectiva de género."
+          ],
+          "primaria_ciclo_3": [
+            "- Contextualización, audición, profundización e investigación de propuestas artísticas de diferentes corrientes estéticas, procedencias y épocas producidas por creadores y creadoras locales, regionales y nacionales e internacionales:\n  o Música clásica: de la Prehistoria a la actualidad; Banda Sonora.\n  o Música moderna: Jazz, Rock, Pop, música latina, tendencias musicales actuales y subgéneros.",
+            "- Tradiciones y fiestas significativas del folklore de la Región de Murcia.",
+            "- Estrategias de recepción activa.",
+            "- Conocimiento de propuestas musicales vocales e instrumentales: audición activa, asistencia a conciertos y recitales.",
+            "- Normas de comportamiento y actitud positiva en la recepción de propuestas artísticas en diferentes espacios.",
+            "- El silencio como elemento y condición indispensable para el mantenimiento de la atención durante la recepción.",
+            "- Consciencia de la contaminación acústica que nos rodea y valoración crítica.",
+            "- Vocabulario específico de la música, la danza y las artes escénicas performativas.",
+            "- Recursos digitales de uso común para la música, la danza y las artes escénicas y performativas:\n  o Recursos digitales para la educación auditiva. Aplicaciones informáticas de grabación y edición de audio. Utilización de bancos de sonidos para su creación.\n  o Utilización responsable de las principales plataformas musicales como medio de reproducción de canciones.",
+            "- Estrategias básicas de análisis de propuestas artísticas desde una perspectiva de género."
+          ]
+        },
+        "B. CREACIÓN Y E INTERPRETACIÓN / ÁREA 3 BLOQUE F: EL LENGUAJE Y LA EXPRESIÓN MUSICALES": {
+          "infantil_ciclo_1": [
+            "- Reconocimiento, evocación y reproducción de canciones y otras manifestaciones musicales. Sentimientos y emociones que transmiten.",
+            "- Posibilidades sonoras y expresivas de la voz, el cuerpo, los objetos y los instrumentos.",
+            "- La escucha como descubrimiento, y disfrute del entorno.",
+            "- La interpretación de canciones y juegos musicales.",
+            "- Sonidos, entonación, ritmo y melodía."
+          ],
+          "infantil_ciclo_2": [
+            "- Posibilidades sonoras, expresivas y creativas de la voz, el cuerpo, los objetos cotidianos de su entorno y los instrumentos.",
+            "- Propuestas musicales en distintos formatos. Acercamiento a los diferentes estilos musicales.",
+            "- El sonido, el silencio y sus cualidades. El código musical.",
+            "- Intención expresiva en las producciones musicales.",
+            "- La escucha musical como disfrute.",
+            "- Danzas de nuestra tradición popular y de otras culturas."
+          ],
+          "primaria_ciclo_1": [
+            "- Fases del proceso creativo: planificación guiada y experimentación.",
+            "- Profesiones vinculadas con la música, la danza y las artes escénicas y performativas, desde una perspectiva de género: maestro, director, intérprete (cantante/instrumentista), bailarín y actor. Principales representantes de la Región de Murcia.",
+            "- Interés tanto por el proceso como por el producto final en producciones musicales, escénicas y performativas."
+          ],
+          "primaria_ciclo_2": [
+            "- Fases del proceso creativo: planificación guiada y experimentación.",
+            "- Profesiones vinculadas con la música y las artes escénicas y performativas, desde una perspectiva de género: luthier, técnico de sonido, compositor. bailarín, actor, director, director de escena y director musical. Principales representantes de la Región de Murcia.",
+            "- Interés tanto por el proceso como por el producto final en producciones musicales, escénicas y performativas."
+          ],
+          "primaria_ciclo_3": [
+            "- Fases del proceso creativo y producción musical. Planificación, interpretación, experimentación y evaluación:\n  o Composición, interpretación, arreglos, grabación y producción artística.\n  o Elección de materiales y ejecución colaborativa.\n  o Valoración tanto del proceso como del producto final.",
+            "- Profesiones vinculadas con la música, la danza y las artes escénicas y performativas desde una perspectiva de género: productor, arreglista, ingeniero de sonido, bailarín, actor, director, director de escena, director musical y coreógrafo. Principales representantes de la Región de Murcia.",
+            "- Evaluación, interés y valoración tanto por el proceso como por el producto final en producciones musicales, escénicas y performativas.",
+            "- Uso responsable de bancos de imágenes y sonidos: respeto a las licencias de uso y distribución de contenidos generados por otros. Plagio y derechos de autor. Conocimiento del valor de la creación artística propia reflejado en la propiedad intelectual. Registro de obras."
+          ]
+        },
+        "C. MÚSICA Y ARTES ESCÉNICAS Y PERFORMATIVAS / ÁREA 3 BLOQUE H: EL LENGUAJE Y LA EXPRESIÓN CORPORALES": {
+          "infantil_ciclo_1": [
+            "- Expresión libre a través del gesto y el movimiento. Juego espontáneo.",
+            "- Desplazamientos por el espacio. Danza: coreografía libre y fija.",
+            "- Cuentos motores.",
+            "- Juegos de imitación a través de marionetas, muñecos u otros objetos de representación espontánea. Juego simbólico.",
+            "- Posibilidades sonoras y expresivas de la voz, el cuerpo, los objetos y los instrumentos.",
+            "- La escucha como descubrimiento, y disfrute del entorno.",
+            "- La interpretación de canciones y juegos musicales.",
+            "- Sonidos, entonación, ritmo y melodía."
+          ],
+          "infantil_ciclo_2": [
+            "- Posibilidades expresivas y comunicativas del propio cuerpo en actividades individuales y grupales libres de prejuicios y estereotipos sexistas.",
+            "- Juegos de expresión corporal y dramática. Acercamiento a diferentes técnicas y estrategias.",
+            "- Escucha, narración e invención de historias. Cuentos motores.",
+            "- Juegos de relajación y respiración que faciliten el control consciente del cuerpo."
+          ],
+          "primaria_ciclo_1": [
+            "- El sonido y sus cualidades básicas: discriminación auditiva, clasificación y representación de diversidad de sonidos y líneas melódicas a través de diferentes grafías:\n  o Discriminación auditiva de sonidos de su entorno más próximo.\n  o Identificación y representación de las cualidades del sonido a través de grafías no convencionales.",
+            "- La voz y los instrumentos musicales. Principales familias y agrupaciones. Discriminación visual y auditiva. Objetos sonoros. Cotidiáfonos:\n  o Audición e identificación de voces infantiles, masculinas y femeninas.\n  o Discriminación tímbrica de los instrumentos de percusión corporal y de pequeña percusión de la clase.\n  o Familias de instrumentos (viento, cuerda y percusión).\n  o Objetos sonoros.\n  o Reconocimiento de los instrumentos representativos del folklore de la Región de Murcia.",
+            "- El carácter, el tempo y la forma:\n  o Agógica: allegro, andante y lento.\n  o Dinámica: forte y piano.\n  o Forma: AA / AB",
+            "- Práctica instrumental, vocal y corporal. Aproximación a la experimentación, exploración creativa e interpretación a partir de las propias posibilidades sonoras y expresivas:\n  o Percusión corporal:\n     Posibilidades sonoras de los distintos elementos corporales.\n     Ejecución de ritmos sencillos y acompañamiento de fragmentos musicales y canciones.\n  o Instrumentos de la clase:\n     Posibilidades sonoras de los instrumentos trabajados.\n     Ejecución de ritmos sencillos y acompañamiento de fragmentos musicales y canciones.\n     Sonorización de imágenes, cuentos e historias musicales.\n  o La voz:\n     Cuidado e higiene del aparato fonador.\n     Calentamiento vocal: ejercicios de respiración y juegos de sensibilización y vocalización.\n     Interpretación y memorización de canciones al unísono y retahílas.\n     Trabajo de la afinación y la justeza rítmica en la interpretación.\n  o Acompañamiento de canciones y fragmentos musicales con objetos de su entorno y cotidiáfonos. Trabajo de distintos timbres.",
+            "- Construcción asistida de instrumentos con materiales del entorno.",
+            "- Lenguajes musicales básicos: aplicación de sus conceptos elementales en la interpretación de propuestas musicales, vocales e instrumentales:\n  o Lenguaje musical:\n     Lectura e interpretación de partituras sencillas no convencionales y de esquemas rítmicos y melódicos con notación convencional.\n  o Altura:\n     Pentagrama.\n     Clave de sol.\n     Notas musicales. Conocimiento de las notas de la escala y representación no convencional y convencional de distintas alturas.\n  o Duración:\n     Figuras musicales de blanca, negra (sus silencios) y dos corcheas.\n     Trabajo vivencial del pulso y el acento.\n  o Signos de repetición: doble barra con dos puntos.",
+            "- El cuerpo y sus posibilidades motrices: interés por la experimentación y la exploración a través de ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medio de expresión y diversión.",
+            "- Técnicas dramáticas y dancísticas elementales:\n  o Ejercicios de respiración-relajación.\n  o Trabajo de las cualidades básicas de movimiento: rápido/lento, fuerte/suave, pesado/ligero.\n  o Formas básicas de movimiento /desplazamiento: andar, correr, saltar y girar.\n  o Juegos motores acompañados de estímulos sonoros, canciones o piezas musicales.",
+            "- Capacidades expresivas y creativas básicas de la expresión corporal y dramática:\n  o Improvisación de movimientos en respuesta a estímulos sonoros.\n  o Expresión corporal y sencillas danzas estructuradas.\n  o Dramatización de pequeñas escenas o cuentos musicales."
+          ],
+          "primaria_ciclo_2": [
+            "- El sonido y sus cualidades: identificación visual y auditiva y representación de diversidad de sonidos y estructuras rítmico-melódicas a través de diferentes grafías:\n  o Discriminación e identificación de sonidos y estructuras rítmico-melódicas.\n  o Identificación y representación de las cualidades del sonido a través de grafías convencionales.",
+            "- La voz y los instrumentos musicales. Agrupaciones y familias. Identificación visual y auditiva. Objetos sonoros. Cotidiáfonos:\n  o Audición e identificación de voces y agrupaciones vocales.\n  o Percusión corporal, PAD y PAI.\n  o Los instrumentos musicales: reconocimiento auditivo y visual de los instrumentos trabajados, así como su clasificación en familias y subfamilias.\n  o Discriminación e identificación de los instrumentos representativos del folklore de la Región de Murcia.",
+            "- El carácter, el tempo, el compás y la forma:\n  o Agógica: presto, allegro, andante, adagio, lento.\n  o Dinámica: fortissimo, forte , piano, pianissimo\n  o Compases de 2/4, 3/ 4 y 4/ 4\n  o Forma: AA / AB /ABA.",
+            "- Práctica instrumental, vocal y corporal: experimentación, exploración creativa e interpretación a partir de las propias posibilidades sonoras y expresivas:\n  o Percusión corporal:\n     Trabajo rítmico con elementos corporales.\n     Ejecución de ostinatos rítmicos.\n  o Instrumentos de la clase:\n     Ejecución de ritmos sencillos.\n     Acompañamiento de fragmentos musicales y canciones (ostinatos rítmicos, bordones y otras secuencias armónicas).\n     Sonorización de cuentos e historias musicales.\n  o Instrumento de uso individual (melódicas, ukeleles, carrillón o cualquier otro que determine el docente y que posibilite la práctica individual y grupal):\n     Interpretación de canciones y melodías sencillas.\n  o La voz:\n     Cuidado e higiene del aparato fonador.\n     Calentamiento vocal: vocalización, articulación y respiración diafragmática.\n     Interpretación y memorización de canciones al unísono y retahílas.\n     Trabajo de la afinación y la justeza rítmica en la interpretación.\n     Acompañamiento vocal de melodías y canciones con ostinatos vocales.",
+            "- Acompañamiento de canciones y fragmentos musicales con cotidiáfonos.",
+            "- Construcción guiada de instrumentos.",
+            "- Lenguajes musicales: aplicación de sus conceptos básicos en la interpretación y en la improvisación de propuestas musicales, vocales e instrumentales:\n  o Lectura e interpretación de partituras sencillas y esquemas rítmicos y melódicos con notación convencional y no convencional.\n  o Altura:\n     Notas: do3 – do4. Ubicación en el pentagrama.\n  o Duración:\n     Figuras musicales de redonda, blanca, negra, corcheas, semicorcheas y sus silencios.\n     Pulso, acento y compás.\n     Signos de prolongación: puntillo, ligadura y calderón.\n     Signos de repetición: doble barra con dos puntos, DC a Fine.",
+            "- El silencio como elemento fundamental en la música.",
+            "- Aplicaciones informáticas básicas de grabación y edición de audio: utilización en la audición y conocimiento de obras diversas.",
+            "- El cuerpo y sus posibilidades motrices y creativas: interés por la experimentación y la exploración a través de ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medio de expresión y diversión.",
+            "- Técnicas dramáticas y dancísticas de uso común. Lenguajes expresivos básicos. Actos performativos elementales, improvisación guiada:\n  o Ejercicios de respiración-relajación.\n  o Trabajo de las cualidades básicas de movimiento: rápido/lento, fuerte/suave, pesado/ligero.\n  o Formas básicas de movimiento/desplazamiento: andar, correr, saltar y girar.\n  o Juegos motores acompañados de estímulos sonoros, canciones o piezas musicales.",
+            "- Capacidades expresivas y creativas de uso común de la expresión corporal y dramática:\n  o Improvisación guiada de movimientos en respuesta a estímulos sonoros como procedimiento para la creación coreográfica.\n  o Expresión corporal y sencillas danzas estructuradas, pertenecientes a la Región de Murcia, España y danzas del mundo.\n  o Dramatización de pequeñas escenas o cuentos musicales.",
+            "- Elementos básicos de la representación escénica: roles, materiales y espacios.\n  o Espacios escénicos y musicales de la Región de Murcia."
+          ],
+          "primaria_ciclo_3": [
+            "- El sonido y sus cualidades: identificación visual y auditiva, clasificación y representación de diversidad de sonidos y estructuras rítmico-melódicas a través de diferentes grafías.",
+            "- La voz y los instrumentos musicales. Familias y agrupaciones. Clasificación. Identificación visual y auditiva. Instrumentos digitales y no convencionales. Cotidiáfonos:\n  o Audición e identificación de voces y agrupaciones vocales.\n  o Percusión corporal, PAD y PAI.\n  o Reconocimiento auditivo y visual de instrumentos acústicos (familias y subfamilias), eléctricos y electrónicos.\n  o Instrumentos y agrupaciones representativas del folklore de la Región de Murcia: Rondallas, Campana de Auroros y Animeros.\n  o Reconocimiento visual y auditivo de diferentes agrupaciones musicales: orquesta, banda, cámara, banda de rock y agrupaciones actuales. Agrupaciones representativas de la Región de Murcia.",
+            "- El carácter, el tempo y el compás, los géneros musicales, la textura, la armonía y la forma:\n  o Agógica: presto, allegro, moderato, andante, adagio, lento.\n  o Dinámica: fortissimo, forte, mezzoforte, mezzopiano, piano, pianissimo.\n  o Compases de 2/4, 3/ 4 y 4/ 4\n  o Forma: AA / AB /ABA / ABACA.\n  o Textura: homofonía, melodía acompañada y polifonía\n  o Armonía: bordones y funciones de tónica, subdominante y dominante.",
+            "- Práctica instrumental, vocal y corporal: experimentación, exploración creativa, interpretación, improvisación y composición a partir de sus posibilidades sonoras y expresivas.\n  o Percusión corporal:\n     Trabajo rítmico con elementos corporales.\n     Ejecución de ostinatos rítmicos.\n  o Instrumentos de la clase:\n     Ejecución de ritmos sencillos y acompañamiento de fragmentos musicales y canciones.\n     Acompañamiento de fragmentos musicales y canciones (ostinatos rítmicos y melódicos, bordones y otras secuencias armónicas)\n     Sonorización de cuentos, historias musicales, y realización de BSO para pequeños cortos.\n  o Instrumento de uso individual (melódica, ukelele, carrillón o cualquier otro que determine el docente y que posibilite la práctica individual y grupal):\n     Interpretación de canciones y melodías sencillas.\n  o La voz:\n     Cuidado e higiene del aparato fonador.\n     Calentamiento vocal: ejercicios de respiración y juegos de sensibilización y vocalización.\n     Interpretación y memorización de canciones al unísono y retahílas.\n     Trabajo de la afinación y la justeza rítmica en la interpretación.\n     Iniciación a la polifonía: ostinatos vocales, canon y canto a dos voces.",
+            "- Construcción de instrumentos.",
+            "- Acompañamiento de canciones y fragmentos musicales con instrumentos de construcción propia.",
+            "- Lenguajes musicales: aplicación de sus conceptos fundamentales en la interpretación y en la improvisación de propuestas musicales, vocales e instrumentales.\n  o Lectura e interpretación de partituras y esquemas rítmicos y melódicos con notación convencional y no convencional.\n  o Altura:\n     Notas: do3-mi4. Ubicación en el pentagrama.\n     Línea adicional.\n     Alteraciones accidentales: sostenido, bemol y becuadro.\n  o Duración:\n     Figuras musicales de redonda, blanca, negra, corcheas, semicorcheas y sus silencios y sus agrupaciones (corchea-dos semicorcheas, dos semicorcheas-corchea, corchea con puntillo- semicorchea, semicorchea-corchea-semicorchea).\n     Pulso, acento y compás.\n     Signos de prolongación: puntillo, ligadura y calderón.\n  o Signos de repetición: doble barra con dos puntos, DC a Fine, casilla de primera y segunda.",
+            "- El silencio en la música.",
+            "- Aplicaciones informáticas de grabación, edición de audio y edición de partituras: utilización en la audición, conocimiento, interpretación, grabación, reproducción, improvisación y creación de obras diversas.",
+            "- Utilización responsable de las principales plataformas musicales como medio de reproducción de canciones. Trabajo significativo del término “explícito” en dichas plataformas como medio de clasificación e identificación de canciones no apropiadas",
+            "- El cuerpo y sus posibilidades motrices dramáticas y creativas: interés en la experimentación y la exploración a través de ejecuciones individuales y grupales vinculadas con el movimiento, la danza, la dramatización y la representación teatral como medio de expresión y diversión.",
+            "- Técnicas básicas dramáticas y dancísticas. Nociones elementales de biomecánica. Lenguajes expresivos. Introducción a los métodos interpretativos. Experimentación con actos performativos. Improvisación guiada y creativa.",
+            "- Capacidades expresivas y creativas de la expresión corporal y dramática:\n  o Improvisación e invención de coreografías para canciones y piezas musicales de diferentes estilos.\n  o Expresión corporal y sencillas danzas estructuradas pertenecientes a la Región de Murcia, España, danzas del mundo y de diferentes épocas.",
+            "- Elementos de la representación escénica: roles, materiales y espacios. Teatralidad. Estructura dramática básica.\n  o Espacios escénicos y musicales de la Región de Murcia.",
+            "- Aproximación a los géneros escénicos. Valoración de la importancia de la interpretación dramática en el proceso artístico y del patrimonio vinculado a las artes escénicas.\n  o Géneros escénicos: ópera, zarzuela, ballet, musical, cine, teatro y performance."
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+out/
+coverage/
+
+# Entorno y logs
+*.log
+.env
+.env.*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/

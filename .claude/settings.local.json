@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep *)",
+      "Bash(grep -v \"^\\\\s*//\")",
+      "PowerShell(Get-Process -Name \"electron\" -ErrorAction SilentlyContinue)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "PowerShell(Start-Process powershell -ArgumentList \"-NoProfile -WindowStyle Hidden -File `\"$env:TEMP\\\\cap2.ps1`\"\" -WindowStyle Hidden; Write-Output \"Capture script launched\")",
+      "PowerShell(Start-Sleep -Seconds 18; $e = Get-Process -Name \"electron\" -ErrorAction SilentlyContinue; Write-Output \"Electron: $\\($e.Count\\) procesos\"; $e | Select-Object Id, MainWindowTitle | Format-Table -AutoSize)",
+      "PowerShell(Start-Sleep -Seconds 20; $e = Get-Process -Name \"electron\" -ErrorAction SilentlyContinue; Write-Output \"Electron: $\\($e.Count\\) procesos\"; $e | Where-Object { $_.MainWindowTitle -ne '' } | Select-Object Id, MainWindowTitle)",
+      "WebSearch"
+    ]
+  }
+}

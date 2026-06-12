@@ -1,0 +1,91 @@
+{
+  "name": "sda-creator",
+  "version": "2.0.0",
+  "description": "Generador de Situaciones de Aprendizaje LOMLOE - Región de Murcia",
+  "main": "./out/main/index.js",
+  "author": "Diego Alberto Moya Puerta",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "dist": "npm run build && electron-builder",
+    "dist:win": "npm run build && electron-builder --win",
+    "dist:win32": "npm run build && electron-builder --win --ia32",
+    "dist:mac": "npm run build && electron-builder --mac",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit -p tsconfig.web.json && tsc --noEmit -p tsconfig.node.json",
+    "lint": "eslint src --ext .ts,.tsx --max-warnings 0"
+  },
+  "dependencies": {
+    "@tiptap/extension-underline": "^3.22.4",
+    "@tiptap/pm": "^3.22.4",
+    "@tiptap/react": "^3.22.4",
+    "@tiptap/starter-kit": "^3.22.4",
+    "docx": "^9.6.1",
+    "dompurify": "^3.4.1",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@electron-toolkit/tsconfig": "^1.0.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/dompurify": "^3.0.5",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "@vitest/coverage-v8": "^4.1.5",
+    "autoprefixer": "^10.4.20",
+    "electron": "^33.4.11",
+    "electron-builder": "^25.1.8",
+    "electron-vite": "^5.0.0",
+    "jsdom": "^29.1.1",
+    "png-to-ico": "^3.0.1",
+    "postcss": "^8.4.49",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^4.1.5"
+  },
+  "build": {
+    "appId": "es.murciaeduca.sda-creator",
+    "productName": "SdA Creator",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "resources/icon.ico",
+      "signtoolOptions": {
+        "publisherName": "Diego Alberto Moya Puerta"
+      }
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "${productName} Setup ${version} (${arch}).${ext}"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "resources/icon.png"
+    },
+    "files": [
+      "out/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "src/renderer/src/data/curriculo",
+        "to": "curriculo",
+        "filter": [
+          "**/*.json"
+        ]
+      }
+    ]
+  }
+}
