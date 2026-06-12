@@ -15,8 +15,8 @@ const FEATURES = [
   {
     icon: FileText,
     color: 'bg-blue-100 text-blue-600 dark:bg-blue-900/40 dark:text-blue-400',
-    title: '10 secciones LOMLOE',
-    desc: 'Identificación, justificación, reto, vinculación curricular, metodología, secuencia, evaluación, DUA, interdisciplinariedad y ODS.'
+    title: '11 secciones LOMLOE',
+    desc: 'Identificación, justificación, reto, vinculación curricular, metodología, secuencia, evaluación, DUA, interdisciplinariedad, ODS y Cuaderno del alumnado.'
   },
   {
     icon: Layers,

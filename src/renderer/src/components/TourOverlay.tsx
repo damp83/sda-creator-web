@@ -12,7 +12,7 @@ const STEPS: TourStep[] = [
   {
     target: 'sidebar',
     title: 'Navegación de secciones',
-    description: 'Accede a las 10 secciones de tu SdA desde aquí. El indicador verde muestra las secciones completadas.',
+    description: 'Accede a las 11 secciones de tu SdA desde aquí. El indicador verde muestra las secciones completadas.',
     side: 'right',
   },
   {

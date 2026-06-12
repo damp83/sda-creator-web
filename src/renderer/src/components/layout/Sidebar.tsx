@@ -11,7 +11,8 @@ import {
   Globe,
   BookMarked,
   Search,
-  X
+  X,
+  NotebookPen
 } from 'lucide-react'
 import { useSdAStore } from '@renderer/store/sdaStore'
 import { CICLO_LABELS, type Ciclo } from '@renderer/types'
@@ -27,7 +28,8 @@ const SECTIONS = [
   { id: 6, label: 'Evaluación', icon: CheckCircle, color: 'text-rose-600' },
   { id: 7, label: 'Atención a la Diversidad', icon: Users, color: 'text-amber-600' },
   { id: 8, label: 'Interdisciplinariedad', icon: Link, color: 'text-cyan-600' },
-  { id: 9, label: 'ODS', icon: Globe, color: 'text-green-600' }
+  { id: 9, label: 'ODS', icon: Globe, color: 'text-green-600' },
+  { id: 10, label: 'Cuaderno de Trabajo', icon: NotebookPen, color: 'text-violet-600' }
 ]
 
 
