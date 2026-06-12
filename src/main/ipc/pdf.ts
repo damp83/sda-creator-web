@@ -48,6 +48,7 @@ export function register(getMainWindow: () => BrowserWindow | null): void {
           <span>P&aacute;g. <span class="pageNumber"></span></span>
         </div>`
 
+      // API moderna de printToPDF (Chromium headless): márgenes en pulgadas
       const pdfData = await event.sender.printToPDF(
         sinPie
           ? {
@@ -56,7 +57,7 @@ export function register(getMainWindow: () => BrowserWindow | null): void {
               pageSize: 'A4',
               landscape: !!landscape,
               displayHeaderFooter: false,
-              margins: { marginType: 'none' }
+              margins: { top: 0, bottom: 0, left: 0, right: 0 }
             }
           : {
               printBackground: true,
@@ -65,7 +66,7 @@ export function register(getMainWindow: () => BrowserWindow | null): void {
               displayHeaderFooter: true,
               headerTemplate,
               footerTemplate,
-              margins: { marginType: 'custom', top: 1.02, bottom: 0.94, left: 0.79, right: 0.63 }
+              margins: { top: 1.02, bottom: 0.94, left: 0.79, right: 0.63 }
             }
       )
 

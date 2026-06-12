@@ -8,7 +8,8 @@
       "PowerShell(Start-Process powershell -ArgumentList \"-NoProfile -WindowStyle Hidden -File `\"$env:TEMP\\\\cap2.ps1`\"\" -WindowStyle Hidden; Write-Output \"Capture script launched\")",
       "PowerShell(Start-Sleep -Seconds 18; $e = Get-Process -Name \"electron\" -ErrorAction SilentlyContinue; Write-Output \"Electron: $\\($e.Count\\) procesos\"; $e | Select-Object Id, MainWindowTitle | Format-Table -AutoSize)",
       "PowerShell(Start-Sleep -Seconds 20; $e = Get-Process -Name \"electron\" -ErrorAction SilentlyContinue; Write-Output \"Electron: $\\($e.Count\\) procesos\"; $e | Where-Object { $_.MainWindowTitle -ne '' } | Select-Object Id, MainWindowTitle)",
-      "WebSearch"
+      "WebSearch",
+      "PowerShell(Get-Content \"$env:TEMP\\\\sda_dev_e42.log\" -ErrorAction SilentlyContinue | Select-Object -Last 25)"
     ]
   }
 }
