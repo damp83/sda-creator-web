@@ -6,7 +6,7 @@ import { stripHtml } from '@renderer/utils/stripHtml'
 function parseSuggestions(text: string): string[] {
   return text
     .split('\n')
-    .map((line) => line.replace(/^\s*\d+[\.\)\-]\s*["«»]?/, '').replace(/["»]$/, '').trim())
+    .map((line) => line.replace(/^\s*\d+[.)-]\s*["«»]?/, '').replace(/["»]$/, '').trim())
     .filter((line) => line.length > 4)
 }
 

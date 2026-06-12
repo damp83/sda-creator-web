@@ -127,7 +127,7 @@ export function AIConfigModal({ isOpen, onClose }: Props): React.ReactElement | 
         openai: { ...prev.openai, hasKey: prev.openai.hasKey || !!prev.openai.apiKey, apiKey: '' },
         gemini: { ...prev.gemini, hasKey: prev.gemini.hasKey || !!prev.gemini.apiKey, apiKey: '' }
       }))
-    } catch {}
+    } catch { /* el error ya se refleja en el estado del proveedor */ }
     setSaving(false)
   }
 
@@ -313,9 +313,14 @@ export function AIConfigModal({ isOpen, onClose }: Props): React.ReactElement | 
               })}
 
               {/* Nota de privacidad */}
-              <p className="text-[11px] leading-relaxed text-slate-400 dark:text-slate-500">
-                Las claves se guardan cifradas en tu equipo con el sistema de seguridad del SO. Nunca se envían a servidores externos salvo al proveedor de IA que hayas configurado.
-              </p>
+              <div className="rounded-xl border border-amber-200 bg-amber-50 px-3.5 py-3 dark:border-amber-800/40 dark:bg-amber-900/15">
+                <p className="text-[11px] font-semibold text-amber-700 dark:text-amber-400 mb-1">🔒 Privacidad y protección de datos</p>
+                <ul className="space-y-1 text-[11px] leading-relaxed text-amber-700/90 dark:text-amber-400/90">
+                  <li>· Las claves API se guardan <strong>cifradas en tu equipo</strong> con el sistema de seguridad del SO y nunca salen de él, salvo hacia el proveedor configurado.</li>
+                  <li>· Al usar las funciones de IA, <strong>el texto de tu SdA se envía al proveedor elegido</strong> (Anthropic, OpenAI o Google) para generar el contenido.</li>
+                  <li>· <strong>No incluyas datos personales del alumnado</strong> (nombres, diagnósticos, situaciones familiares…) en los campos que se procesan con IA. Usa descripciones genéricas ("un alumno con TDAH") en lugar de identificativas.</li>
+                </ul>
+              </div>
             </>
           ) : (
             <>

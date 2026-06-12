@@ -1,21 +1,16 @@
-name: Compilar SdA Creator (Win y Mac)
+name: CI y compilación SdA Creator
 
 on:
   push:
-    branches:
-      - main
+    branches: [main, master]
   pull_request:
-    branches:
-      - main
-  workflow_dispatch: # Permite ejecutar la acción de forma manual desde Github
+    branches: [main, master]
+  workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [macos-latest, windows-latest]
-    
+  # ── Verificación: lint + tipos + tests (rápido, en Linux) ──────────────
+  verificar:
+    runs-on: ubuntu-latest
     steps:
       - name: Descargar el código
         uses: actions/checkout@v4
@@ -23,10 +18,41 @@ jobs:
       - name: Instalar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
+          cache: npm
 
       - name: Instalar dependencias
-        run: npm install
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Comprobación de tipos
+        run: npm run typecheck
+
+      - name: Tests
+        run: npm test
+
+  # ── Compilación de instaladores (solo si la verificación pasa) ─────────
+  build:
+    needs: verificar
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest]
+
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
 
       - name: Compilar para Windows
         if: matrix.os == 'windows-latest'

@@ -98,15 +98,15 @@ export default function App(): React.ReactElement {
   const autosaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const diskSaveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
-  function addToast(text: string, type: ToastType = 'info', duration = 4000): void {
+  const removeToast = useCallback((id: string): void => {
+    setToasts((prev) => prev.filter((t) => t.id !== id))
+  }, [])
+
+  const addToast = useCallback((text: string, type: ToastType = 'info', duration = 4000): void => {
     const id = String(++toastCounterRef.current)
     setToasts((prev) => [...prev, { id, type, text }])
     setTimeout(() => removeToast(id), duration)
-  }
-
-  function removeToast(id: string): void {
-    setToasts((prev) => prev.filter((t) => t.id !== id))
-  }
+  }, [removeToast])
 
   // Startup: check native backup, then (if none) auto-reopen last file
   useEffect(() => {
@@ -173,7 +173,7 @@ export default function App(): React.ReactElement {
     return () => {
       if (autosaveTimer.current) clearTimeout(autosaveTimer.current)
     }
-  }, [sda, isDirty])
+  }, [sda, isDirty, addToast])
 
   // Auto-guardar en disco cada 5 min cuando ya existe filePath
   useEffect(() => {
@@ -190,7 +190,7 @@ export default function App(): React.ReactElement {
     return () => {
       if (diskSaveTimer.current) clearTimeout(diskSaveTimer.current)
     }
-  }, [sda, isDirty, filePath])
+  }, [sda, isDirty, filePath, setDirty, setLastSaved])
 
   // Update window title
   useEffect(() => {
@@ -254,13 +254,13 @@ export default function App(): React.ReactElement {
     setShowWelcome(false)
     closeModal('templates')
     addToast(`Plantilla "${partial.titulo ?? ''}" cargada. Puedes editar todos los campos.`, 'success')
-  }, [cargar, closeModal])
+  }, [cargar, closeModal, addToast])
 
   const handleDuplicar = useCallback(() => {
     duplicar()
     setShowWelcome(false)
     addToast('SdA duplicada — ya puedes editarla', 'success')
-  }, [duplicar])
+  }, [duplicar, addToast])
 
   const handleSaveAndCloseWithModal = useCallback(async () => {
     closeModal('closeConfirm')
@@ -275,7 +275,7 @@ export default function App(): React.ReactElement {
       console.error('[App] Clipboard write failed:', err)
       addToast('No se pudo acceder al portapapeles', 'error')
     }
-  }, [sda])
+  }, [sda, addToast])
 
 
   // Keyboard shortcuts
@@ -348,7 +348,7 @@ export default function App(): React.ReactElement {
     }
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [handleGuardar, handleAbrir, handleAbrirWizard, handleExportarPdf, handleCopiarPortapapeles, undo, redo, openModal])
+  }, [handleGuardar, handleAbrir, handleAbrirWizard, handleExportarPdf, handleCopiarPortapapeles, undo, redo, openModal, setActiveSection])
 
   // Toast cuando una sección se completa
   useEffect(() => {
@@ -358,7 +358,7 @@ export default function App(): React.ReactElement {
     }
     window.addEventListener('sda-section-complete', onComplete)
     return () => window.removeEventListener('sda-section-complete', onComplete)
-  }, [])
+  }, [addToast])
 
   // Flash del campo encontrado en la búsqueda global
   useEffect(() => {

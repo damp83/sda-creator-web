@@ -13,7 +13,7 @@ interface InputWithAIProps extends React.InputHTMLAttributes<HTMLInputElement> {
 function parseSuggestions(text: string): string[] {
   return text
     .split('\n')
-    .map((line) => line.replace(/^\s*\d+[\.\)\-]\s*["«»]?/, '').replace(/["»]$/, '').trim())
+    .map((line) => line.replace(/^\s*\d+[.)-]\s*["«»]?/, '').replace(/["»]$/, '').trim())
     .filter((line) => line.length > 3)
     .slice(0, 6)
 }
