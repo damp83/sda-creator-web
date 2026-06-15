@@ -66,7 +66,7 @@ export function register(getMainWindow: () => BrowserWindow | null): void {
               displayHeaderFooter: true,
               headerTemplate,
               footerTemplate,
-              margins: { top: 1.02, bottom: 0.94, left: 0.79, right: 0.63 }
+              margins: { top: 1.02, bottom: 0.94, left: 0.79, right: 0.79 }
             }
       )
 
@@ -99,7 +99,10 @@ export function register(getMainWindow: () => BrowserWindow | null): void {
     })
     if (result.canceled || !result.filePath) return null
     try {
-      writeFileSync(result.filePath, content, 'utf-8')
+      // BOM UTF-8 (EF BB BF): garantiza que editores antiguos (Bloc de notas
+      // clásico) muestren acentos y eñes. NotebookLM lo ignora sin problema.
+      const bom = Buffer.from([0xef, 0xbb, 0xbf])
+      writeFileSync(result.filePath, Buffer.concat([bom, Buffer.from(content, 'utf-8')]))
       return result.filePath
     } catch (err) {
       console.error('[IPC] app:exportarTexto — error:', err)
