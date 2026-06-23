@@ -1,22 +1,8 @@
 import { ipcMain, dialog } from 'electron'
 import { writeFileSync } from 'fs'
 import { generarDocx, type SdADocxData } from '../docxGenerator'
+import { safePdfName, safeDocxName } from './pathSafety'
 import type { BrowserWindow, IpcMainInvokeEvent } from 'electron'
-
-const NTFS_RESERVED = /^(con|prn|aux|nul|com[1-9]|lpt[1-9])(\.|$)/i
-
-function safePdfName(titulo?: string): string {
-  if (!titulo) return 'sda.pdf'
-  // eslint-disable-next-line no-control-regex -- saneado deliberado de caracteres de control en nombres de archivo
-  const base = titulo.slice(0, 50).replace(/[/\\?%*:|"<>\x00-\x1f]/g, '_').replace(/[. ]+$/, '').trim() || 'sda'
-  return `${NTFS_RESERVED.test(base) ? `sda_${base}` : base}.pdf`
-}
-
-function safeDocxName(titulo?: string): string {
-  // eslint-disable-next-line no-control-regex -- saneado deliberado de caracteres de control en nombres de archivo
-  const base = (titulo ?? '').slice(0, 50).replace(/[/\\?%*:|"<>\x00-\x1f]/g, '_').replace(/[. ]+$/, '').trim() || 'sda'
-  return `${NTFS_RESERVED.test(base) ? `sda_${base}` : base}.docx`
-}
 
 export function register(getMainWindow: () => BrowserWindow | null): void {
   ipcMain.handle(

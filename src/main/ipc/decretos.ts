@@ -1,6 +1,7 @@
 import { app, ipcMain, dialog } from 'electron'
 import { join, basename } from 'path'
 import { existsSync, mkdirSync, readFileSync, readdirSync, unlinkSync, copyFileSync } from 'fs'
+import { isUnsafeFileName } from './pathSafety'
 import type { BrowserWindow } from 'electron'
 
 function getUserDecretosDir(): string {
@@ -51,7 +52,7 @@ export function register(getMainWindow: () => BrowserWindow | null): void {
   })
 
   ipcMain.handle('app:leerDecretoUsuario', (_event, fileName: string) => {
-    if (!fileName || fileName.includes('..') || fileName.includes('/') || fileName.includes('\\') || fileName.includes('\0')) {
+    if (isUnsafeFileName(fileName)) {
       throw new Error('Nombre de archivo no válido.')
     }
     const filePath = join(getUserDecretosDir(), fileName)
@@ -87,12 +88,26 @@ export function register(getMainWindow: () => BrowserWindow | null): void {
     const dir = getUserDecretosDir()
     if (!existsSync(dir)) mkdirSync(dir, { recursive: true })
     const fileName = (srcPath.split(/[/\\]/).pop() as string)
-    copyFileSync(srcPath, join(dir, fileName))
+    const destPath = join(dir, fileName)
+    // Evitar sobrescribir silenciosamente un decreto existente del usuario.
+    if (existsSync(destPath)) {
+      const { response } = await dialog.showMessageBox(win, {
+        type: 'question',
+        buttons: ['Cancelar', 'Reemplazar'],
+        defaultId: 0,
+        cancelId: 0,
+        title: 'El decreto ya existe',
+        message: `Ya existe un decreto llamado "${fileName}".`,
+        detail: 'Si continúas, se reemplazará el decreto existente por el nuevo.'
+      })
+      if (response !== 1) return null
+    }
+    copyFileSync(srcPath, destPath)
     return { fileName, ambito: data.ambito }
   })
 
   ipcMain.handle('app:eliminarDecreto', (_event, fileName: string) => {
-    if (!fileName || fileName.includes('..') || fileName.includes('/') || fileName.includes('\\') || fileName.includes('\0')) {
+    if (isUnsafeFileName(fileName)) {
       throw new Error('Nombre de archivo no válido.')
     }
     const filePath = join(getUserDecretosDir(), fileName)

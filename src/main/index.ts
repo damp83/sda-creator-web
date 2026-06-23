@@ -47,9 +47,32 @@ function createWindow(): void {
     mainWindow!.show()
   })
 
+  // Cierre seguro: interceptamos para que el renderer confirme si hay cambios sin
+  // guardar. Pero si el renderer se cuelga o se cae, la ventana debe poder cerrarse
+  // igualmente sin recurrir al Administrador de tareas.
   mainWindow.on('close', (e) => {
     e.preventDefault()
     mainWindow!.webContents.send('window:close-requested')
+  })
+
+  // El proceso de renderizado se ha caído: cerrar sin más (no hay nada que confirmar).
+  mainWindow.webContents.on('render-process-gone', () => mainWindow?.destroy())
+
+  // El renderer ha dejado de responder (bucle de eventos bloqueado). A diferencia de
+  // estar esperando en el diálogo de confirmación —donde el renderer SÍ responde—,
+  // aquí ofrecemos forzar el cierre para no dejar la app inutilizable.
+  mainWindow.webContents.on('unresponsive', async () => {
+    if (!mainWindow) return
+    const { response } = await dialog.showMessageBox(mainWindow, {
+      type: 'warning',
+      buttons: ['Esperar', 'Cerrar de todos modos'],
+      defaultId: 0,
+      cancelId: 0,
+      title: 'La aplicación no responde',
+      message: 'SdA Creator ha dejado de responder.',
+      detail: 'Puedes esperar a que se recupere o cerrar la aplicación. Si la cierras, podrías perder los cambios no guardados.'
+    })
+    if (response === 1) mainWindow?.destroy()
   })
 
   mainWindow.webContents.setWindowOpenHandler((details) => {

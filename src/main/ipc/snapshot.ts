@@ -1,6 +1,7 @@
 import { ipcMain } from 'electron'
 import { join, parse as parsePath } from 'path'
 import { existsSync, readdirSync, readFileSync, statSync, unlinkSync } from 'fs'
+import { isUnsafeFileName } from './pathSafety'
 
 export function register(): void {
   ipcMain.handle('app:listarSnapshots', (_event, filePath: string) => {
@@ -26,7 +27,7 @@ export function register(): void {
   })
 
   ipcMain.handle('app:leerSnapshot', (_event, { basePath, fileName }: { basePath: string; fileName: string }) => {
-    if (!basePath || !fileName || fileName.includes('..') || /[/\\]/.test(fileName) || fileName.includes('\0'))
+    if (!basePath || isUnsafeFileName(fileName))
       throw new Error('Parámetros inválidos.')
     const fullPath = join(parsePath(basePath).dir, fileName)
     if (!existsSync(fullPath)) throw new Error('Snapshot no encontrado.')
@@ -34,7 +35,7 @@ export function register(): void {
   })
 
   ipcMain.handle('app:eliminarSnapshot', (_event, { basePath, fileName }: { basePath: string; fileName: string }) => {
-    if (!basePath || !fileName || fileName.includes('..') || /[/\\]/.test(fileName) || fileName.includes('\0'))
+    if (!basePath || isUnsafeFileName(fileName))
       throw new Error('Parámetros inválidos.')
     const fullPath = join(parsePath(basePath).dir, fileName)
     try { if (existsSync(fullPath)) unlinkSync(fullPath) } catch { return false }

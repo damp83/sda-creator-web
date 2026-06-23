@@ -76,29 +76,5 @@ describe('getSdAProgress — IPC recientes pct calculation', () => {
   })
 })
 
-// ─── Path-traversal guard (snapshot/decreto IPC) ─────────────────────────────
-
-describe('fileName path-traversal validation', () => {
-  function isValidFileName(name: string): boolean {
-    return !name.includes('..') && !name.includes('/') && !name.includes('\\') && !name.includes('\0')
-  }
-
-  it('accepts normal snapshot filenames', () => {
-    expect(isValidFileName('snapshot-001.json')).toBe(true)
-    expect(isValidFileName('decreto_EP_2024.json')).toBe(true)
-  })
-
-  it('rejects path traversal attempts', () => {
-    expect(isValidFileName('../secret.json')).toBe(false)
-    expect(isValidFileName('../../etc/passwd')).toBe(false)
-  })
-
-  it('rejects absolute path separators', () => {
-    expect(isValidFileName('/etc/passwd')).toBe(false)
-    expect(isValidFileName('folder\\file.json')).toBe(false)
-  })
-
-  it('rejects null bytes', () => {
-    expect(isValidFileName('file\0.json')).toBe(false)
-  })
-})
+// La guarda de path-traversal de los handlers (snapshot/decreto) se prueba contra
+// el código real en src/main/__tests__/pathSafety.test.ts.
