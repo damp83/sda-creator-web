@@ -87,6 +87,10 @@ contextBridge.exposeInMainWorld('api', {
   cargarBackup: () => ipcRenderer.invoke('backup:leer'),
   eliminarBackup: () => ipcRenderer.invoke('backup:eliminar'),
 
+  // Registro de errores del renderer en el log de la aplicación
+  reportError: (info: { message?: string; stack?: string; component?: string }) =>
+    ipcRenderer.invoke('log:error', info),
+
   // IA
   getAISettings: () => ipcRenderer.invoke('ai:getSettings'),
   saveAISettings: (data: unknown) => ipcRenderer.invoke('ai:saveSettings', data),

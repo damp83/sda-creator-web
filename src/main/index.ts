@@ -1,5 +1,7 @@
-import { app, shell, BrowserWindow, dialog, Menu } from 'electron'
+import { app, shell, BrowserWindow, dialog, Menu, ipcMain } from 'electron'
 import { join } from 'path'
+import { initLogger, log } from './logger'
+import { initAutoUpdate } from './updater'
 import { initAISettings } from './aiService'
 import * as ipcFile from './ipc/file'
 import * as ipcBackup from './ipc/backup'
@@ -12,15 +14,21 @@ import * as ipcWindow from './ipc/window'
 
 const isDev = process.env.NODE_ENV === 'development'
 
+// Logging persistente — debe inicializarse antes que nada para capturarlo todo.
+initLogger()
+
 // ─── Global error handlers ────────────────────────────────────────────────────
 process.on('unhandledRejection', (reason) => {
-  console.error('[Main] Unhandled promise rejection:', reason)
+  log.error('[Main] Unhandled promise rejection:', reason)
 })
 process.on('uncaughtException', (err) => {
-  console.error('[Main] Uncaught exception:', err)
+  log.error('[Main] Uncaught exception:', err)
 })
 
 let mainWindow: BrowserWindow | null = null
+// Marca un cierre provocado por la instalación de una actualización, para que el
+// interceptor de cierre lo deje pasar sin pedir confirmación al renderer.
+let isQuittingForUpdate = false
 
 function getMainWindow(): BrowserWindow | null {
   return mainWindow
@@ -51,6 +59,7 @@ function createWindow(): void {
   // guardar. Pero si el renderer se cuelga o se cae, la ventana debe poder cerrarse
   // igualmente sin recurrir al Administrador de tareas.
   mainWindow.on('close', (e) => {
+    if (isQuittingForUpdate) return // cierre para instalar la actualización: permitir
     e.preventDefault()
     mainWindow!.webContents.send('window:close-requested')
   })
@@ -187,6 +196,11 @@ ipcDecretos.register(getMainWindow)
 ipcRecientes.register()
 ipcWindow.register(getMainWindow)
 
+// Registro de errores del renderer (ErrorBoundary) en el archivo de log.
+ipcMain.handle('log:error', (_event, info: { message?: string; stack?: string; component?: string }) => {
+  log.error('[Renderer]', info?.message ?? 'Error', info?.component ? `(${info.component})` : '', info?.stack ?? '')
+})
+
 // ─── App lifecycle ────────────────────────────────────────────────────────────
 
 app.whenReady().then(() => {
@@ -196,6 +210,12 @@ app.whenReady().then(() => {
   initAISettings(app.getPath('userData'))
   ipcRecientes.init(app.getPath('userData'))
   createWindow()
+
+  // Auto-actualización: solo en la app empaquetada (nunca en desarrollo).
+  if (app.isPackaged) {
+    initAutoUpdate(getMainWindow, () => { isQuittingForUpdate = true })
+  }
+
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
   })

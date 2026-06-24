@@ -25,7 +25,8 @@ Una Situación de Aprendizaje (SdA) es la unidad de programación didáctica del
 
 ## Características principales
 
-- **Asistente IA integrado** — Generación automática de secciones usando Claude (Anthropic) u OpenAI. Incluye mejora de texto inline al seleccionar cualquier fragmento en el editor
+- **Asistente IA integrado** — Generación automática de secciones usando Claude (Anthropic), OpenAI (ChatGPT) o Gemini (Google). Incluye mejora de texto inline al seleccionar cualquier fragmento en el editor
+- **Cuaderno de Trabajo del alumno** — Genera un cuaderno gamificado imprimible (misiones, tareas por niveles de Bloom, XP) a partir de las sesiones de la SdA
 - **Completar SdA con un clic** — Rellena todas las secciones vacías de forma secuencial con un solo botón
 - **Editor de texto enriquecido** — TipTap con negrita, cursiva, listas y más
 - **Exportar a PDF** — Impresión directa con 4 plantillas de color prediseñadas (Azul LOMLOE, Verde, Gris, Ámbar)
@@ -35,6 +36,7 @@ Una Situación de Aprendizaje (SdA) es la unidad de programación didáctica del
 - **Deshacer / Rehacer** — Historial de 50 acciones
 - **Modo oscuro** — Tema claro u oscuro con persistencia
 - **Atajos de teclado** — Ctrl+S guardar, Ctrl+O abrir, Ctrl+N nueva, Ctrl+P exportar PDF
+- **Actualización automática** — La app detecta nuevas versiones publicadas y se actualiza en segundo plano (ver [docs/RELEASE-Y-FIRMA.md](docs/RELEASE-Y-FIRMA.md))
 
 ---
 
@@ -89,12 +91,13 @@ Para usar las funciones de generación automática necesitas una clave de API de
 2. Selecciona el proveedor: **Anthropic (Claude)** u **OpenAI**
 3. Pega tu clave de API y guarda
 
-Las claves se almacenan de forma cifrada en el equipo y nunca se envían a ningún servidor externo.
+Las claves se almacenan de forma cifrada en el equipo y nunca se envían a ningún servidor externo. Consulta el tratamiento de datos en [PRIVACIDAD.md](PRIVACIDAD.md).
 
 ### Obtener una clave de API
 
 - **Anthropic Claude:** [console.anthropic.com](https://console.anthropic.com)
 - **OpenAI:** [platform.openai.com](https://platform.openai.com)
+- **Google Gemini:** [aistudio.google.com](https://aistudio.google.com/app/apikey)
 
 ---
 
@@ -115,7 +118,7 @@ Abrir la app → Crear nueva SdA (o usar plantilla)
 
 | Capa | Tecnología |
 |---|---|
-| Runtime de escritorio | Electron 33 |
+| Runtime de escritorio | Electron 42 |
 | Interfaz | React 18 + TypeScript |
 | Bundler | Vite + electron-vite |
 | Estilos | Tailwind CSS 3 |

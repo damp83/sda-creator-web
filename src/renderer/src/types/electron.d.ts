@@ -93,6 +93,9 @@ interface ElectronAPI {
   cargarBackup: () => Promise<string | null>
   eliminarBackup: () => Promise<void>
 
+  // Registro de errores del renderer
+  reportError: (info: { message?: string; stack?: string; component?: string }) => Promise<void>
+
   // IA
   getAISettings: () => Promise<AISettingsPublic>
   saveAISettings: (data: SaveAISettingsPayload) => Promise<boolean>

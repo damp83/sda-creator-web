@@ -4,6 +4,10 @@
   "description": "Generador de Situaciones de Aprendizaje LOMLOE - Región de Murcia",
   "main": "./out/main/index.js",
   "author": "Diego Alberto Moya Puerta",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damp83/sda-creator.git"
+  },
   "scripts": {
     "dev": "node scripts/dev.js",
     "build": "electron-vite build",
@@ -25,6 +29,8 @@
     "@tiptap/starter-kit": "^3.22.4",
     "docx": "^9.6.1",
     "dompurify": "^3.4.1",
+    "electron-log": "^5.4.4",
+    "electron-updater": "^6.8.9",
     "lucide-react": "^0.468.0",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
@@ -63,6 +69,13 @@
     "directories": {
       "output": "dist"
     },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "damp83",
+        "repo": "sda-creator"
+      }
+    ],
     "win": {
       "target": "nsis",
       "icon": "resources/icon.ico",

@@ -21,7 +21,10 @@ export class ErrorBoundary extends React.Component<Props, State> {
   }
 
   componentDidCatch(error: Error, info: React.ErrorInfo): void {
-    console.error('[ErrorBoundary] Uncaught error in', this.props.fallbackLabel ?? 'component', error, info.componentStack)
+    const component = this.props.fallbackLabel ?? 'component'
+    console.error('[ErrorBoundary] Uncaught error in', component, error, info.componentStack)
+    // Persistir el error en el log de la aplicación (observabilidad en producción).
+    window.api?.reportError?.({ message: error.message, stack: error.stack, component })
   }
 
   render(): React.ReactNode {
