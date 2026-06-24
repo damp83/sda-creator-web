@@ -1,6 +1,6 @@
 {
   "name": "sda-creator",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Generador de Situaciones de Aprendizaje LOMLOE - Región de Murcia",
   "main": "./out/main/index.js",
   "author": "Diego Alberto Moya Puerta",
