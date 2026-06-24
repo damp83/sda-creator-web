@@ -8,6 +8,11 @@ on:
     branches: [main, master]
   workflow_dispatch:
 
+# Necesario para que electron-builder pueda crear/publicar la Release con el
+# GITHUB_TOKEN (por defecto es de solo lectura en muchos repositorios).
+permissions:
+  contents: write
+
 jobs:
   # ── Verificación: lint + tipos + tests (rápido, en Linux) ──────────────
   verificar:

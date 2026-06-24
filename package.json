@@ -1,6 +1,6 @@
 {
   "name": "sda-creator",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Generador de Situaciones de Aprendizaje LOMLOE - Región de Murcia",
   "main": "./out/main/index.js",
   "author": "Diego Alberto Moya Puerta",
@@ -79,10 +79,7 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "resources/icon.ico",
-      "signtoolOptions": {
-        "publisherName": "Diego Alberto Moya Puerta"
-      }
+      "icon": "resources/icon.ico"
     },
     "nsis": {
       "oneClick": false,
