@@ -55,7 +55,7 @@ Una Situación de Aprendizaje (SdA) es la unidad de programación didáctica del
 
 ### Instalador (recomendado)
 
-1. Descarga el archivo `SdA Creator Setup x.x.x.exe` desde la sección de [Releases](https://github.com/tu-usuario/sda-creator/releases)
+1. Descarga el archivo `SdA Creator Setup x.x.x.exe` desde la sección de [Releases](https://github.com/damp83/sda-creator-web/releases)
 2. Ejecuta el instalador y sigue los pasos del asistente
 3. Elige la carpeta de instalación y haz clic en **Instalar**
 4. Al terminar, accede desde el acceso directo del escritorio o el menú Inicio
@@ -66,8 +66,8 @@ Requiere [Node.js 20+](https://nodejs.org) y [Git](https://git-scm.com).
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/sda-creator.git
-cd sda-creator
+git clone https://github.com/damp83/sda-creator-web.git
+cd sda-creator-web
 
 # Instalar dependencias
 npm install

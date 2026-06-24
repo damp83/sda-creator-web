@@ -6,7 +6,7 @@
   "author": "Diego Alberto Moya Puerta",
   "repository": {
     "type": "git",
-    "url": "https://github.com/damp83/sda-creator.git"
+    "url": "https://github.com/damp83/sda-creator-web.git"
   },
   "scripts": {
     "dev": "node scripts/dev.js",
@@ -73,7 +73,7 @@
       {
         "provider": "github",
         "owner": "damp83",
-        "repo": "sda-creator"
+        "repo": "sda-creator-web"
       }
     ],
     "win": {

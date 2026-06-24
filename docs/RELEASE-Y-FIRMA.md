@@ -5,7 +5,8 @@ activar la firma de código cuando dispongas de los certificados.
 
 ## 1. Publicar una nueva versión (auto-actualización)
 
-La app se auto-actualiza desde **GitHub Releases** (`damp83/sda-creator`). El flujo es:
+La app se auto-actualiza desde **GitHub Releases** (`damp83/sda-creator-web`, el mismo
+repositorio que aloja la web y los instaladores). El flujo es:
 
 1. Sube el número de versión en `package.json` (campo `"version"`), por ejemplo `2.1.0`.
 2. Haz commit y crea una etiqueta `v` + versión:
