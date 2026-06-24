@@ -31,8 +31,8 @@ jobs:
       - name: Comprobación de tipos
         run: npm run typecheck
 
-      - name: Tests
-        run: npm test
+      - name: Tests y cobertura (con umbrales)
+        run: npm run test:coverage
 
   # ── Compilación de instaladores (solo si la verificación pasa) ─────────
   build:

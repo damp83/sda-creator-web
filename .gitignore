@@ -6,6 +6,9 @@ dist/
 out/
 coverage/
 
+# Caché incremental de TypeScript
+*.tsbuildinfo
+
 # Entorno y logs
 *.log
 .env
