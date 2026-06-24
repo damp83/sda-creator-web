@@ -285,6 +285,23 @@ describe('parseSdAFromJSON — cuaderno de trabajo', () => {
     expect(result.cuaderno?.temaVisual?.mascotaSvg).toBeUndefined()
   })
 
+  it('preserva colores de tema oscuros válidos', () => {
+    const result = parseSdAFromJSON(json({ titulo: 'Test', cuaderno: cuadernoValido }))
+    expect(result.cuaderno?.temaVisual?.colorPrimario).toBe('#14532d')
+    expect(result.cuaderno?.temaVisual?.colorSecundario).toBe('#16a34a')
+  })
+
+  it('sustituye un color primario demasiado claro por el oscuro del preset (legibilidad)', () => {
+    const claro = {
+      ...cuadernoValido,
+      temaVisual: { ...cuadernoValido.temaVisual, colorPrimario: '#e9e3ff', colorSecundario: '#d4c5ff' }
+    }
+    const result = parseSdAFromJSON(json({ titulo: 'Test', cuaderno: claro }))
+    // 'selva' → primario #14532d / secundario #16a34a
+    expect(result.cuaderno?.temaVisual?.colorPrimario).toBe('#14532d')
+    expect(result.cuaderno?.temaVisual?.colorSecundario).toBe('#16a34a')
+  })
+
   it('descarta ilustraciones que no sean data URLs de imagen', () => {
     const conIlustracionMala = {
       ...cuadernoValido,

@@ -103,6 +103,17 @@ function normalizeMaterialSesion(raw: unknown, index: number): MaterialSesion {
   }
 }
 
+// Luminancia perceptual aproximada (0 = negro, 255 = blanco) de un color hex.
+function colorLuminance(hexColor: string): number {
+  let h = hexColor.replace('#', '')
+  if (h.length === 3) h = h.split('').map((c) => c + c).join('')
+  if (h.length < 6) return 255
+  const r = parseInt(h.slice(0, 2), 16)
+  const g = parseInt(h.slice(2, 4), 16)
+  const b = parseInt(h.slice(4, 6), 16)
+  return 0.299 * r + 0.587 * g + 0.114 * b
+}
+
 function normalizeTemaVisual(raw: unknown): TemaVisual | undefined {
   if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return undefined
   const t = raw as Record<string, unknown>
@@ -111,10 +122,17 @@ function normalizeTemaVisual(raw: unknown): TemaVisual | undefined {
   const base = TEMAS_VISUALES[key as TemaVisualKey]
   const hex = (v: unknown, fb: string): string =>
     typeof v === 'string' && /^#[0-9a-fA-F]{3,8}$/.test(v) ? v : fb
+  // primario/secundario se usan como fondo de degradado con texto blanco y como
+  // color de texto sobre página clara: si el color guardado es demasiado claro, el
+  // texto se vuelve ilegible, así que se sustituye por el color oscuro del preset.
+  const darkHex = (v: unknown, fb: string): string => {
+    const c = hex(v, fb)
+    return colorLuminance(c) <= 140 ? c : fb
+  }
   return {
     plantilla: key as TemaVisualKey,
-    colorPrimario: hex(t.colorPrimario, base.primario),
-    colorSecundario: hex(t.colorSecundario, base.secundario),
+    colorPrimario: darkHex(t.colorPrimario, base.primario),
+    colorSecundario: darkHex(t.colorSecundario, base.secundario),
     colorAcento: hex(t.colorAcento, base.acento),
     colorFondoSuave: hex(t.colorFondoSuave, base.fondoSuave),
     // El SVG procede del archivo y se incrusta con dangerouslySetInnerHTML: re-sanear SIEMPRE

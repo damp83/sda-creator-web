@@ -256,8 +256,12 @@ body.cuaderno-export-mode #cuaderno-view { display: block !important; }
   display: inline-flex;
   align-items: center;
   gap: 8pt;
-  background: linear-gradient(135deg, var(--cb-primario, #4c1d95), var(--cb-secundario, #5b21b6));
+  /* Oscurecimiento sobre el degradado del tema para asegurar el texto blanco. */
+  background:
+    linear-gradient(135deg, rgba(15,23,42,0.50), rgba(15,23,42,0.36)),
+    linear-gradient(135deg, var(--cb-primario, #4c1d95), var(--cb-secundario, #5b21b6));
   color: #fff;
+  text-shadow: 0 1pt 2pt rgba(0,0,0,0.45);
   font-weight: 900;
   font-size: 17pt;
   letter-spacing: 0.01em;
@@ -502,12 +506,17 @@ body.cuaderno-export-mode #cuaderno-view { display: block !important; }
   display: flex;
   align-items: center;
   gap: 12pt;
-  background: linear-gradient(135deg, var(--cb-primario, #4c1d95), var(--cb-secundario, #5b21b6));
+  /* Capa de oscurecimiento sobre el degradado del tema: garantiza que el texto
+     blanco se lea aunque la IA elija colores de tema claros para el cuaderno. */
+  background:
+    linear-gradient(135deg, rgba(15,23,42,0.50), rgba(15,23,42,0.36)),
+    linear-gradient(135deg, var(--cb-primario, #4c1d95), var(--cb-secundario, #5b21b6));
   border-radius: 14pt;
   border: 2.5pt solid rgba(255,255,255,0.8);
   box-shadow: 0 4pt 0 rgba(0,0,0,0.18);
   padding: 10pt 16pt;
   color: #fff;
+  text-shadow: 0 1pt 2pt rgba(0,0,0,0.45);
   margin-bottom: 10pt;
 }
 .cb-sesion-num {
@@ -543,12 +552,24 @@ body.cuaderno-export-mode #cuaderno-view { display: block !important; }
   box-shadow: 0 3pt 0 rgba(0,0,0,0.18);
 }
 
-/* Rejilla 3×2 de tareas Bloom */
+/* Indicador de paginación de una misión que ocupa varias hojas */
+.cb-sesion-pag { font-weight: 700; opacity: 0.85; }
+/* Banner reducido para las hojas de continuación de una misión */
+.cb-sesion-banner-cont { padding: 7pt 16pt; }
+.cb-sesion-banner-cont .cb-sesion-num { width: 30pt; height: 30pt; font-size: 13pt; }
+.cb-sesion-banner-cont .cb-sesion-titulo { font-size: 13pt; }
+
+/* Rejilla 2×2 de tareas Bloom */
 .cb-tareas-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12pt;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14pt;
 }
+/* En la página de misión, la rejilla ocupa toda la altura disponible y reparte el
+   espacio entre las filas, de modo que cada tarjeta crece y el área de escritura
+   se hace lo más amplia posible. */
+.cb-sesion { display: flex; flex-direction: column; }
+.cb-sesion .cb-tareas-grid { flex: 1; grid-auto-rows: 1fr; min-height: 0; }
 .cb-tarea {
   border-radius: 12pt;
   border: 2.5pt solid;
@@ -571,15 +592,19 @@ body.cuaderno-export-mode #cuaderno-view { display: block !important; }
 .cb-tarea-nivel { display: inline-flex; align-items: center; gap: 4pt; font-weight: 900; font-size: 10pt; min-width: 0; overflow: hidden; }
 .cb-tarea-nivel .ic { font-size: 12pt; flex-shrink: 0; }
 .cb-tarea-cuerpo { padding: 7pt 9pt 9pt; flex: 1; display: flex; flex-direction: column; }
-.cb-tarea-nombre { font-weight: 800; font-size: 9.5pt; color: #0f172a; margin: 0 0 3pt; line-height: 1.2; }
-.cb-tarea-enunciado { font-size: 8.5pt; color: #1e293b; line-height: 1.45; margin: 0 0 6pt; }
+.cb-tarea-nombre { font-weight: 800; font-size: 11pt; color: #0f172a; margin: 0 0 3pt; line-height: 1.2; }
+.cb-tarea-enunciado { font-size: 10pt; color: #1e293b; line-height: 1.5; margin: 0 0 7pt; }
 .cb-tarea-escribir {
   margin-top: auto;
-  height: 64pt;
+  /* Crece para llenar el espacio sobrante de la tarjeta (ver .cb-sesion grid). */
+  flex: 1 1 auto;
+  min-height: 84pt;
   border-radius: 6pt;
   border: 1.5pt dashed #cbd5e1;
+  /* Renglones más altos (~7,7 mm) y separados, pensados para la caligrafía de los
+     alumnos, especialmente los más pequeños. */
   background:
-    repeating-linear-gradient(transparent, transparent 15.4pt, #e2e8f0 15.4pt, #e2e8f0 16pt);
+    repeating-linear-gradient(transparent, transparent 21pt, #e2e8f0 21pt, #e2e8f0 22pt);
   background-color: rgba(255,255,255,0.6);
 }
 .cb-tarea-ayuda {
@@ -713,18 +738,16 @@ body.cuaderno-export-mode #cuaderno-view { display: block !important; }
 /* "moderna" = familia base (Trebuchet/Segoe) — sin override */
 
 /* ── Layout de las tareas ── */
-/* mosaico: 2 columnas amplias, más espacio para escribir */
+/* mosaico: igual que la rejilla por defecto (2 columnas amplias). El espacio de
+   escritura lo gestiona el flex de .cb-sesion. */
 #cuaderno-view[data-layout="mosaico"] .cb-tareas-grid {
   grid-template-columns: repeat(2, 1fr);
 }
-#cuaderno-view[data-layout="mosaico"] .cb-tarea-escribir { height: 96pt; }
-#cuaderno-view[data-layout="mosaico"] .cb-tarea-enunciado { font-size: 9.5pt; }
-#cuaderno-view[data-layout="mosaico"] .cb-tarea-nombre { font-size: 10.5pt; }
 
-/* pergamino: fichas horizontales a ancho completo, máximo espacio de escritura */
+/* pergamino: fichas horizontales a ancho completo (1 columna). */
 #cuaderno-view[data-layout="pergamino"] .cb-tareas-grid {
   grid-template-columns: 1fr;
-  gap: 6pt;
+  gap: 10pt;
 }
 #cuaderno-view[data-layout="pergamino"] .cb-tarea {
   display: grid;
@@ -737,8 +760,9 @@ body.cuaderno-export-mode #cuaderno-view { display: block !important; }
   gap: 4pt;
   border-right: 1.5pt solid rgba(0,0,0,0.07);
 }
-#cuaderno-view[data-layout="pergamino"] .cb-tarea-escribir { height: 80pt; }
-#cuaderno-view[data-layout="pergamino"] .cb-tarea-enunciado { font-size: 9.5pt; }
+/* La columna derecha (cuerpo) llena la altura de la ficha para que el área de
+   escritura crezca igual que en la rejilla. */
+#cuaderno-view[data-layout="pergamino"] .cb-tarea-cuerpo { min-height: 0; }
 
 /* ── Densidad decorativa ── */
 #cuaderno-view[data-decoracion="minima"] .cb-hud { display: none; }

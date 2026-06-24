@@ -71,42 +71,80 @@ function TareaImpresa({ tarea }: { tarea: TareaBloom }) {
 
 // ─── Página de misión ─────────────────────────────────────────────────────────
 
+// Máximo de tarjetas por hoja impresa. Con 4 (rejilla 2×2) cada tarjeta es grande
+// y queda amplio espacio para escribir; si la misión tiene más tareas, continúa en
+// la hoja siguiente en vez de comprimirlas todas en una sola página.
+const TAREAS_POR_PAGINA = 4
+
 function PaginaSesion({ material, sesionTitulo }: { material: MaterialSesion; sesionTitulo: string }) {
   const xpTotal = material.tareas.reduce((acc, t) => acc + t.xp, 0)
   const tareasOrdenadas = BLOOM_ORDEN
     .map(n => material.tareas.find(t => t.nivelBloom === n))
     .filter(Boolean) as TareaBloom[]
 
+  // Repartir las tareas en hojas de TAREAS_POR_PAGINA.
+  const paginas: TareaBloom[][] = []
+  for (let i = 0; i < tareasOrdenadas.length; i += TAREAS_POR_PAGINA) {
+    paginas.push(tareasOrdenadas.slice(i, i + TAREAS_POR_PAGINA))
+  }
+  if (paginas.length === 0) paginas.push([])
+  const totalPaginas = paginas.length
+
   return (
-    <div className="cb-page cb-sesion">
-      <div className="cb-sesion-banner">
-        <div className="cb-sesion-num">{material.sesionNumero}</div>
-        <div className="cb-sesion-info">
-          <p className="cb-sesion-label">Misión {material.sesionNumero}</p>
-          <p className="cb-sesion-titulo">{material.misionTitulo || sesionTitulo}</p>
-          {material.narrativa && <p className="cb-sesion-narrativa">{material.narrativa}</p>}
-        </div>
-        <div className="cb-sesion-xptotal">
-          <b>{xpTotal}</b>
-          <small>XP totales</small>
-        </div>
-        {material.ilustracion && (
-          <img className="cb-sesion-ilustracion" src={material.ilustracion} alt={`Misión ${material.sesionNumero}`} />
-        )}
-      </div>
+    <>
+      {paginas.map((tareasPag, idx) => {
+        const esPrimera = idx === 0
+        const esUltima = idx === totalPaginas - 1
+        return (
+          <div className="cb-page cb-sesion" key={idx}>
+            {esPrimera ? (
+              <div className="cb-sesion-banner">
+                <div className="cb-sesion-num">{material.sesionNumero}</div>
+                <div className="cb-sesion-info">
+                  <p className="cb-sesion-label">
+                    Misión {material.sesionNumero}
+                    {totalPaginas > 1 && <span className="cb-sesion-pag"> · pág. 1/{totalPaginas}</span>}
+                  </p>
+                  <p className="cb-sesion-titulo">{material.misionTitulo || sesionTitulo}</p>
+                  {material.narrativa && <p className="cb-sesion-narrativa">{material.narrativa}</p>}
+                </div>
+                <div className="cb-sesion-xptotal">
+                  <b>{xpTotal}</b>
+                  <small>XP totales</small>
+                </div>
+                {material.ilustracion && (
+                  <img className="cb-sesion-ilustracion" src={material.ilustracion} alt={`Misión ${material.sesionNumero}`} />
+                )}
+              </div>
+            ) : (
+              <div className="cb-sesion-banner cb-sesion-banner-cont">
+                <div className="cb-sesion-num">{material.sesionNumero}</div>
+                <div className="cb-sesion-info">
+                  <p className="cb-sesion-label">Misión {material.sesionNumero} · continúa</p>
+                  <p className="cb-sesion-titulo">{material.misionTitulo || sesionTitulo}</p>
+                </div>
+                <div className="cb-sesion-xptotal">
+                  <b>{idx + 1}/{totalPaginas}</b>
+                  <small>página</small>
+                </div>
+              </div>
+            )}
 
-      <div className="cb-tareas-grid">
-        {tareasOrdenadas.map(t => <TareaImpresa key={t.id} tarea={t} />)}
-      </div>
+            <div className="cb-tareas-grid">
+              {tareasPag.map(t => <TareaImpresa key={t.id} tarea={t} />)}
+            </div>
 
-      {material.reflexion && (
-        <div className="cb-reflexion">
-          <span className="cb-reflexion-label">🪞 Reflexiona</span>
-          <span className="cb-reflexion-pregunta">{material.reflexion}</span>
-          <span className="cb-reflexion-linea" />
-        </div>
-      )}
-    </div>
+            {esUltima && material.reflexion && (
+              <div className="cb-reflexion">
+                <span className="cb-reflexion-label">🪞 Reflexiona</span>
+                <span className="cb-reflexion-pregunta">{material.reflexion}</span>
+                <span className="cb-reflexion-linea" />
+              </div>
+            )}
+          </div>
+        )
+      })}
+    </>
   )
 }
 
