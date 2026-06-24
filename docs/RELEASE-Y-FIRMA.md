@@ -18,6 +18,8 @@ repositorio que aloja la web y los instaladores). El flujo es:
 3. GitHub Actions (`.github/workflows/build.yml`) detecta la etiqueta, compila los
    instaladores de Windows y macOS y los **publica automáticamente** en una Release
    (incluyendo los ficheros `latest.yml` / `latest-mac.yml` que necesita el updater).
+   La Release se crea **ya publicada, sin borrador**, gracias a `releaseType: "release"`
+   en la config de `publish` de `package.json`.
 4. Las instalaciones existentes detectarán la nueva versión al arrancar, la
    descargarán en segundo plano y ofrecerán reiniciar para instalarla.
 
