@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SdA Creator | Generador de Situaciones de Aprendizaje LOMLOE</title>
-    <meta name="description" content="El software definitivo para crear Situaciones de Aprendizaje LOMLOE en la Región de Murcia. Con asistente IA integrado, exportación selectiva a PDF y Word, y mucho más.">
+    <meta name="description" content="El software definitivo para crear Situaciones de Aprendizaje LOMLOE en la Región de Murcia. Con asistente IA integrado, cuaderno de trabajo del alumnado, exportación a PDF y Word, y actualizaciones automáticas.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -37,19 +37,13 @@
             <h1>Crea tus Situaciones de Aprendizaje <span class="text-gradient">en minutos</span></h1>
             <p>La herramienta definitiva para docentes. Adaptada a la Región de Murcia, con soporte para <strong>importar el currículo de cualquier otra Comunidad Autónoma</strong>. Cumple con la LOMLOE y exporta a PDF/Word en segundos.</p>
             <div class="hero-actions">
-                <a href="https://github.com/damp83/sda-creator-web/releases/download/v2.0.0/SdA.Creator.Setup.2.0.0.x64.exe" class="btn-primary" id="hero-download-64">
+                <a href="https://github.com/damp83/sda-creator-web/releases/latest" class="btn-primary" id="hero-download-64">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                     Descargar para Windows (64 bits)
                 </a>
                 <a href="#demo" class="btn-secondary">Ver demostración</a>
             </div>
-            <div class="hero-extra-links">
-                <a href="https://github.com/damp83/sda-creator-web/releases/download/v2.0.0/SdA.Creator.Setup.2.0.0.ia32.exe" class="download-alt" id="hero-download-32">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                    ¿Sistema de 32 bits? Descargar versión x86
-                </a>
-            </div>
-            <p class="hero-subtext">Aplicación de escritorio gratuita. Sin conexión a internet requerida para el modo básico.</p>
+            <p class="hero-subtext">Aplicación de escritorio gratuita. Una vez instalada, <strong>se actualiza sola</strong> con cada nueva versión. Sin conexión a internet para el modo básico.</p>
         </div>
         <div class="hero-visual">
             <img src="imagen1.png" alt="Captura principal de SdA Creator v2.0" class="hero-image">
@@ -102,6 +96,20 @@
                 </div>
                 <h3>Búsqueda global y más</h3>
                 <p>Busca texto en todas las secciones con Ctrl+F. Además: modo foco, notas por sección, temas de color, plantillas personalizadas y estadísticas en tiempo real.</p>
+            </div>
+            <div class="glass-card changelog-card">
+                <div class="changelog-icon changelog-icon--update">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M3 21v-5h5"/></svg>
+                </div>
+                <h3>Actualización automática</h3>
+                <p>Instálala una vez y olvídate: la aplicación detecta cada nueva versión, la descarga en segundo plano y te avisa para reiniciar. Siempre con las últimas mejoras, sin reinstalar nada.</p>
+            </div>
+            <div class="glass-card changelog-card">
+                <div class="changelog-icon changelog-icon--cuaderno">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="M9 7h6"/><path d="M9 11h4"/></svg>
+                </div>
+                <h3>Cuaderno del alumnado</h3>
+                <p>Genera un cuaderno de trabajo gamificado e imprimible (misiones, retos por niveles y puntos de experiencia) a partir de tus sesiones. Con tarjetas grandes y amplio espacio para escribir, pensadas también para los más pequeños.</p>
             </div>
         </div>
     </section>
@@ -199,16 +207,16 @@
             <h2>Comienza a ahorrar tiempo hoy mismo</h2>
             <p>Únete a los docentes que ya están planificando el curso de manera más inteligente.</p>
             <div class="cta-buttons">
-                <a href="https://github.com/damp83/sda-creator-web/releases/download/v2.0.0/SdA.Creator.Setup.2.0.0.x64.exe" class="btn-primary large" id="cta-download-64">
+                <a href="https://github.com/damp83/sda-creator-web/releases/latest" class="btn-primary large" id="cta-download-64">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                    Descargar SdA Creator v2.0 (64 bits)
+                    Descargar SdA Creator (64 bits)
                 </a>
-                <a href="https://github.com/damp83/sda-creator-web/releases/download/v2.0.0/SdA.Creator.Setup.2.0.0.ia32.exe" class="btn-secondary large" id="cta-download-32">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                    Descargar versión 32 bits (x86)
+                <a href="#demo" class="btn-secondary large">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"></rect><path d="M9 17V7l8 5-8 5Z"/></svg>
+                    Ver demostración
                 </a>
             </div>
-            <p class="requirements">Para Windows 10/11. Instalador seguro y libre de virus.</p>
+            <p class="requirements">Para Windows 10/11 (64 bits). Se actualiza automáticamente: siempre tendrás la última versión.</p>
         </div>
     </section>
 

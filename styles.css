@@ -393,6 +393,24 @@ body {
     background: linear-gradient(90deg, #0ea5e9, #38bdf8);
 }
 
+.changelog-icon--update {
+    background: rgba(99, 102, 241, 0.15);
+    color: #818cf8;
+}
+
+.changelog-card:nth-child(7)::before {
+    background: linear-gradient(90deg, #6366f1, #818cf8);
+}
+
+.changelog-icon--cuaderno {
+    background: rgba(249, 115, 22, 0.15);
+    color: #fb923c;
+}
+
+.changelog-card:nth-child(8)::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+}
+
 .changelog-card h3 {
     font-size: 1.15rem;
     margin-bottom: 10px;
